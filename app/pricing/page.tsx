@@ -1,21 +1,16 @@
-﻿import type { Metadata } from "next";
-import { CTA, PricingCards, SectionIntro } from "@/components/Sections";
+"use client";
 
-export const metadata: Metadata = {
-  title: "Pricing",
-  description: "Premium pricing for AI automation, custom software development, SaaS development, CRM automation, and enterprise systems.",
-};
+import { CTA, PricingCards, SectionIntro } from "@/components/Sections";
+import { useLocale } from "@/components/i18n/LocaleProvider";
 
 export default function PricingPage() {
+  const { t } = useLocale();
+
   return (
     <main className="bg-ink pt-28">
       <section className="px-5 py-20 lg:px-8">
         <div className="mx-auto max-w-7xl">
-          <SectionIntro
-            eyebrow="Pricing"
-            title="Premium technology packages for serious B2B execution"
-            text="Clear starting points for automation, software, and enterprise systems. Enterprise is highlighted because larger systems need deeper architecture and governance."
-          />
+          <SectionIntro eyebrow={t.pages.pricing.eyebrow} title={t.pages.pricing.title} text={t.pages.pricing.text} />
           <PricingCards withComparison />
         </div>
       </section>

@@ -55,6 +55,23 @@
         "Awtomatizasiýa",
         "CRM, iş akymlary, hasabat"
       ]
+    ],
+    "panelRows": [
+      [
+        "Lead kabul etmek",
+        "Sa?landy we ugrukdyryldy",
+        "Aktiw"
+      ],
+      [
+        "CRM pipeline",
+        "Follow-up yzygiderligi ta??ar",
+        "Ta??ar"
+      ],
+      [
+        "?olba??y dashboardy",
+        "Operasi?a signaly tapyldy",
+        "Janly"
+      ]
     ]
   },
   "sections": {
@@ -174,6 +191,522 @@
     "recommended": "Maslahat berilýär",
     "bestFor": "Iň laýyk",
     "timeline": "Wagt",
-    "capability": "Mümkinçilik"
+    "capability": "Mümkinçilik",
+    "view": "Gör",
+    "problem": "Mesele",
+    "challenge": "Kynçylyk",
+    "solution": "Çözgüt",
+    "metrics": "Görkezijiler",
+    "outcome": "Netije"
+  },
+  "pages": {
+    "services": {
+      "eyebrow": "Hyzmatlar",
+      "title": "Ösüş üçin AI awtomatizasiýasy, ýörite programma we SaaS ulgamlary",
+      "text": "El işini akylly ulgamlar bilen çalyşmaga taýýar guramalar üçin premium tehniki ýerine ýetiriş."
+    },
+    "industries": {
+      "eyebrow": "Pudaklar",
+      "title": "Operasiýasy çylşyrymly pudaklar üçin awtomatizasiýa we programma",
+      "text": "Has gowy ulgamlaryň tizlige, konwersiýa we hyzmat hiline göni täsir edýän iş akymlaryna üns berýäris."
+    },
+    "caseStudies": {
+      "eyebrow": "Keýsler",
+      "title": "Ölçenip bolýan operasiýa täsiri bolan enterprise keýsler",
+      "text": "Kynçylyk, çözgüt, netije we ROI görkezijileri bilen pudak mysallary."
+    },
+    "pricing": {
+      "eyebrow": "Bahalar",
+      "title": "Çynlakaý B2B ýerine ýetiriş üçin premium tehnologiýa paketleri",
+      "text": "Awtomatizasiýa, programma we enterprise ulgamlar üçin anyk başlangyç nokatlar. Enterprise aýratyn görkezilýär, sebäbi uly ulgamlar çuň arhitektura we dolandyryş talap edýär."
+    },
+    "about": {
+      "eyebrow": "Biz barada",
+      "title": "AI bilen işleýän biznes ulgamlary üçin tehnologiýa hyzmatdaşy",
+      "text": "Asman AI bizneslere AI-powered software gurmaga, operasiýalary awtomatlaşdyrmaga we giňelip bilýän sanly platformalary işe girizmäge kömek edýär.",
+      "brandLine": "AI awtomatizasiýasy - Programma taýýarlamak - SaaS çözgütleri",
+      "blocks": [
+        [
+          "Missiýa",
+          "El operasiýalaryny akylly we giňelip bilýän sanly ulgamlara öwürmek."
+        ],
+        [
+          "Görnüş",
+          "Berk programma infrastrukturasyna mätäç biznesler üçin ynamdar tehnologiýa hyzmatdaşy bolmak."
+        ],
+        [
+          "Çemeleşmämiz",
+          "Bökdençlikleri kartalaşdyrýarys, arhitekturany dizaýn edýäris, çalt gurýarys we uzak möhletli kabul edilişi goldaýarys."
+        ],
+        [
+          "Näme üçin bizi saýlaýarlar",
+          "Premium ýerine ýetiriş, aýdyň biznes pikiri, döwrebap programma amallary we ölçenip bolýan awtomatizasiýa netijeleri."
+        ]
+      ]
+    }
+  },
+  "sectionDetails": {
+    "proofText": "Premium AI awtomatizasiýasy, programma taýýarlamak we SaaS gowşurylyşy.",
+    "trustEyebrow": "Ynam",
+    "trustTitle": "Biznesler näme üçin Asman AI saýlaýar",
+    "trustText": "Enterprise alyjylara diňe owadan ekranlar ýeterlik däl. Olara tehniki jogapkärçilik, howpsuz gowşurylyş we ösüp bilýän ulgamlar gerek.",
+    "osEyebrow": "Operasiýa ulgamy",
+    "osTitle": "Bölek-bölek gurallardan bir akylly biznes ulgamyna",
+    "osText": "Awtomatizasiýa, maglumat, programma we hasabat bir berk operasiýa gatlagy hökmünde bile işleýär.",
+    "osPanelEyebrow": "Ulgam arhitekturasy",
+    "osPanelTitle": "AI iş akymy gatlagy",
+    "osPanelStatus": "Janly model",
+    "osSteps": [
+      [
+        "01",
+        "Tutmak",
+        "Formalar, jaňlar, inbox, CRM"
+      ],
+      [
+        "02",
+        "Saýlamak",
+        "AI agentler, skor, ugrukdyrma"
+      ],
+      [
+        "03",
+        "Ýerine ýetirmek",
+        "Dashboardlar, iş akymlary, SaaS"
+      ],
+      [
+        "04",
+        "Ölçemek",
+        "KPI, hasabat, iterasiýa"
+      ]
+    ],
+    "successEyebrow": "Müşderi üstünlikleri",
+    "successTitle": "Operasiýalarda, satuwda we SaaS ulgamlarynda amaly netijeler",
+    "successText": "Has gowy ulgamlaryň biznes operasiýalaryny nähili gowulandyrýandygyny görkezýän real mysallar.",
+    "resourcesEyebrow": "Resurs merkezi",
+    "resourcesTitle": "Has akylly ulgamlar we arassa operasiýalar üçin pikirler",
+    "resourcesText": "AI awtomatizasiýasyny, programma taýýarlamagy, SaaS strategiýasyny, CRM ulgamlaryny we sanly transformasiýany bahalandyrýan toparlar üçin makalalar we gollanmalar."
+  },
+  "data": {
+    "services": [
+      {
+        "title": "AI awtomatizasiýasy",
+        "text": "Müşderi goldawyny, satuw yzarlamalaryny, içki işleri we gaýtalanýan iş akymlaryny ygtybarly AI ulgamlary bilen awtomatlaşdyryň.",
+        "proof": "Jogap wagtyny gysgaltmak we el bilen geçirilýän işleri azaltmak üçin dizaýn edilýär.",
+        "features": [
+          "AI chatbotlar",
+          "AI işgärler",
+          "Iş akymy awtomatizasiýasy",
+          "CRM integrasiýasy",
+          "Lead saýlamak"
+        ]
+      },
+      {
+        "title": "Programma taýýarlamak",
+        "text": "Howpsuz web programmalary, CRM ulgamlary, dashboardlar, portallar we enterprise software gurýarys.",
+        "proof": "Bir gezeklik script däl, önüm derejesindäki arhitektura.",
+        "features": [
+          "Web programmalar",
+          "CRM ulgamlar",
+          "ERP ulgamlar",
+          "Admin dashboardlar",
+          "API integrasiýalar"
+        ]
+      },
+      {
+        "title": "SaaS taýýarlamak",
+        "text": "Giňelip bilýän arhitektura, analitika, admin gurallary we billing flows bilen subscription önümleri işe giriziň.",
+        "proof": "Activation, retention, billing we operasiýa görünürlügi esasynda gurulýar.",
+        "features": [
+          "SaaS MVP",
+          "Subscription billing",
+          "Ulanyjy dashboardy",
+          "Admin panel",
+          "Cloud deployment"
+        ]
+      },
+      {
+        "title": "AI ses agentleri",
+        "text": "Jaňlara jogap berýär, lead saýlaýar, duşuşyk belleýär we müşderileri gije-gündiz goldaýar.",
+        "proof": "Eskalasiýa logikasy bolan adam derejesindäki jaň akymlary.",
+        "features": [
+          "Gelýän jaňlar",
+          "Lead ugrukdyrma",
+          "Duşuşyk bellemek",
+          "Jaň jemlemeleri"
+        ]
+      },
+      {
+        "title": "CRM awtomatizasiýasy",
+        "text": "Formalary, lead ugrukdyrmany, satuw işleri, follow-up we hasabaty bir operasiýa ulgamyna baglaýarys.",
+        "proof": "Lead tutmakdan ýapylýança arassa pipeline operasiýasy.",
+        "features": [
+          "HubSpot workflows",
+          "Pipeline awtomatizasiýasy",
+          "Email awtomatizasiýasy",
+          "Hasabat"
+        ]
+      },
+      {
+        "title": "Enterprise çözgütleri",
+        "text": "Uly operasiýa ulgamlary we uzak möhletli product builds üçin aýratyn toparlar we berk arhitektura.",
+        "proof": "Kompaniýa infrastrukturasyna öwrülýän ulgamlar üçin dolandyrylýan gowşurylyş.",
+        "features": [
+          "Aýratyn topar",
+          "Enterprise software",
+          "Howpsuzlyk meýilnamasy",
+          "Dowamly goldaw"
+        ]
+      }
+    ],
+    "trustIndicators": [
+      [
+        "Enterprise çözgütleri",
+        "Çylşyrymly biznes operasiýalary üçin ulgamlar"
+      ],
+      [
+        "Global gowşurylyş",
+        "Paýlanan toparlar üçin remote-first ýerine ýetiriş"
+      ],
+      [
+        "Köp pudak tejribesi",
+        "Operasiýasy agyr pudaklarda tejribe"
+      ],
+      [
+        "Uzak möhletli goldaw",
+        "Ilkinji işe girizmeden soň tehniki goldaw"
+      ]
+    ],
+    "plans": [
+      {
+        "name": "Starter",
+        "description": "Bir esasy workflow töwereginde awtomatizasiýany barlaýan toparlar üçin.",
+        "idealFor": "Bir workflow işe girizmek",
+        "timeline": "2-4 hepde",
+        "features": [
+          "AI automation setup",
+          "Esasy CRM integrasiýasy",
+          "1 workflow",
+          "Email support",
+          "Launch plan"
+        ]
+      },
+      {
+        "name": "Growth",
+        "description": "El operasiýalaryny baglanyşykly software bilen çalyşýan kompaniýalar üçin.",
+        "idealFor": "Bölüm derejesinde awtomatizasiýa",
+        "timeline": "4-8 hepde",
+        "features": [
+          "AI awtomatizasiýasy",
+          "Web app ýa dashboard",
+          "CRM integrasiýasy",
+          "3-5 workflows",
+          "Strategy consultation",
+          "Analytics setup"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "description": "Mission-critical software, birnäçe AI agent we SaaS arhitekturasy üçin.",
+        "idealFor": "Esasy operasiýa ulgamlary",
+        "timeline": "8-16+ hepde",
+        "features": [
+          "Custom software",
+          "Birnäçe AI agent",
+          "SaaS arhitekturasy",
+          "Dedicated project manager",
+          "Ongoing support",
+          "Security planning"
+        ]
+      }
+    ],
+    "industries": [
+      [
+        "Gozgalmaýan emläk",
+        "Ýokary göwrümli satuw toparlary üçin lead saýlamak, CRM awtomatizasiýasy we duşuşyk bellemek."
+      ],
+      [
+        "Logistika",
+        "Dispatch awtomatizasiýasy, dokument iş akymlary we müşderi kommunikasiýa ulgamlary."
+      ],
+      [
+        "Saglygy goraýyş",
+        "Duşuşyk awtomatizasiýasy, pasient goldawy we içki iş akymy awtomatizasiýasy."
+      ],
+      [
+        "E-commerce",
+        "Müşderi goldaw AI, zakaz täzelenmeleri, marketing awtomatizasiýasy we dashboardlar."
+      ],
+      [
+        "Maliýe",
+        "Hasabat dashboardlary, workflow automation we müşderi onboarding ulgamlary."
+      ],
+      [
+        "Professional hyzmatlar",
+        "Client intake, taslama operasiýalary, knowledge workflows we executive reporting."
+      ]
+    ],
+    "cases": [
+      {
+        "industry": "Logistika operasiýa awtomatizasiýasy",
+        "challenge": "Içki workflows we dispatch operasiýalary el koordinasiýasyna baglydy.",
+        "solution": "Içki workflows, routing logic, status updates we operasiýa dashboardlary awtomatlaşdyryldy.",
+        "outcome": "El bilen işlemek wagty ep-esli azaldy.",
+        "secondary": "Dispatch koordinasiýasy has çalt we gözegçilikli boldy."
+      },
+      {
+        "industry": "Gozgalmaýan emläk satuw workflow",
+        "challenge": "Satuw toparlary lead saýlamak we follow-up üçin köp wagt sarp edýärdi.",
+        "solution": "AI-driven lead qualification, CRM automation, reminders we appointment workflows ornaşdyryldy.",
+        "outcome": "Satuw netijeliligi we jogap wagty gowulandy.",
+        "secondary": "Lead jogaplary topar boýunça has yzygiderli boldy."
+      },
+      {
+        "industry": "SaaS infrastruktura gurmak",
+        "challenge": "Önüme ösüşi goldamak üçin giňelip bilýän arhitektura we içki awtomatizasiýa gerekdi.",
+        "solution": "SaaS architecture, dashboards, automation systems we cloud deployment workflows taýýarlandy.",
+        "outcome": "Çalt ösüş we operasiýa netijeliligi goldanyldy.",
+        "secondary": "Platforma product we operations teams üçin has arassa binýat aldy."
+      }
+    ],
+    "operatingPrinciples": [
+      [
+        "Iş akymy akyly",
+        "Kararlaryň, handofflaryň we müşderi jogap aýlawlarynyň nirede bozulýandygyny kartalaşdyrýarys."
+      ],
+      [
+        "Ulgam arhitekturasy",
+        "Her awtomatizasiýa berk programma we maglumat binýadynyň bölegi hökmünde dizaýn edilýär."
+      ],
+      [
+        "Howpsuz integrasiýalar",
+        "CRM, billing, cloud we AI integrasiýalary access control we auditability bilen düzülýär."
+      ],
+      [
+        "Ölçenen netijeler",
+        "Täsir işe girizilenden soň görünmek üçin dashboardlar we KPI başdan meýilleşdirilýär."
+      ]
+    ],
+    "deliverySteps": [
+      [
+        "01",
+        "Discovery",
+        "Iş akymlary, bökdençlikler, maglumat çeşmeleri we ölçenip bilýän biznes maksatlary kartalaşdyrylýar."
+      ],
+      [
+        "02",
+        "Strategiýa",
+        "Arhitektura, awtomatizasiýa logikasy, interfeýsler we rollout plan kesgitlenýär."
+      ],
+      [
+        "03",
+        "Taýýarlamak",
+        "Önüm, AI agentler, CRM awtomatizasiýasy, dashboardlar we integrasiýalar gurulýar."
+      ],
+      [
+        "04",
+        "Işe girizmek we goldaw",
+        "Performance ölçelýär, adoption gowulandyrylýar we ulgam goldaw bilen giňeldilýär."
+      ]
+    ],
+    "proofBadges": [
+      [
+        "Esasy fokus",
+        "B2B ulgamlar"
+      ],
+      [
+        "Gowşurylyş modeli",
+        "Strategiýa + build"
+      ],
+      [
+        "Ulgamlar",
+        "AI + software"
+      ],
+      [
+        "Taýýarlyk",
+        "Stripe-ready"
+      ]
+    ],
+    "comparisonRows": [
+      [
+        "AI workflows",
+        "1",
+        "3-5",
+        "Multi-agent orchestration"
+      ],
+      [
+        "Software build",
+        "Automation setup",
+        "Dashboard ýa web app",
+        "Custom platform"
+      ],
+      [
+        "CRM çuňlugy",
+        "Basic integration",
+        "Pipeline automation",
+        "Full operating model"
+      ],
+      [
+        "Analitika",
+        "Launch metrics",
+        "Workflow reporting",
+        "Executive dashboards"
+      ],
+      [
+        "Goldaw",
+        "Email",
+        "Strategy sessions",
+        "Dedicated project manager"
+      ],
+      [
+        "Arhitektura",
+        "Standard",
+        "Scalable",
+        "SaaS + security planning"
+      ]
+    ],
+    "resourceArticles": [
+      [
+        "AI awtomatizasiýasy",
+        "AI awtomatizasiýasynyň iň çalt operasiýa leverage döredýän ýerleri",
+        "Awtomatizasiýa taýýar workflows, handoffs we decision points barada amaly syn."
+      ],
+      [
+        "Programma taýýarlamak",
+        "Içki çylşyrymlylyk döretmän custom software scope etmek",
+        "Biznes maksatlary, arhitektura, integrasiýalar we delivery milestones kesgitlemek gollanmasy."
+      ],
+      [
+        "SaaS strategiýasy",
+        "MVP-den soň hem giňelip bilýän SaaS platformalary gurmak",
+        "Ir meýilleşdirilmeli zatlar: billing, roles, analytics, admin tooling we cloud deployment."
+      ],
+      [
+        "CRM ulgamlar",
+        "Has çalt jogap we arassa pipeline üçin CRM automation patterns",
+        "Sales toparlarynyň ynanyp biljek lead routing, follow-up sequences, notifications we reporting ulgamlary."
+      ],
+      [
+        "Sanly transformasiýa",
+        "El operasiýalaryny ölçenip bolýan sanly ulgamlara öwürmek",
+        "Bölek-bölek tools-dan biznes üçin berk operating layer-a geçmek."
+      ]
+    ],
+    "trustReasons": [
+      [
+        "Aýratyn taslama toparlary",
+        "Strategiýadan işe girizmäge çenli anyk ownership, kommunikasiýa we tehniki ýerine ýetiriş."
+      ],
+      [
+        "Enterprise-ready çözgütler",
+        "Reliability, integration, maintainability we operational adoption üçin dizaýn edilen ulgamlar."
+      ],
+      [
+        "Global gowşurylyş",
+        "Döwrebap paýlanan guramalar üçin remote-first delivery model."
+      ],
+      [
+        "Uzak möhletli tehniki goldaw",
+        "Ilkinji release-den soň dowamly improvement, maintenance we extension."
+      ],
+      [
+        "Howpsuz development practices",
+        "Access, data flow, deployment we operational risk boýunça amaly üns."
+      ],
+      [
+        "Giňelip bilýän arhitektura",
+        "Users, data, workflows we product scope bilen ösýän software foundation."
+      ]
+    ]
+  },
+  "resourceCards": {
+    "blog": [
+      [
+        "Operasiýa awtomatizasiýasy",
+        "Software we AI ulgamlary bilen gowulandyryp boljak gaýtalanýan workflows tapmak."
+      ],
+      [
+        "SaaS meýilleşdirmek",
+        "Billing, roles, dashboards, onboarding we uzak möhletli platform maintenance boýunça amaly kararlar."
+      ],
+      [
+        "CRM workflows",
+        "Lead routing, follow-up, pipeline visibility we sales reporting üçin arassa patterns."
+      ]
+    ],
+    "docs": [
+      [
+        "AI awtomatizasiýa scope",
+        "Implementation-den öň workflows, inputs, outputs, escalation paths we success metrics nähili kesgitlenýär."
+      ],
+      [
+        "Software delivery bellikleri",
+        "Taslamalaryň discovery-den architecture, development, review, launch we support-a geçişi."
+      ],
+      [
+        "Integrasiýa meýilleşdirmek",
+        "CRM, payments, cloud, communications we analytics systems birikdirmezden öň taýýarlanmaly zatlar."
+      ]
+    ],
+    "faqs": [
+      [
+        "Taslamalar nähili başlanýar?",
+        "Taslamalar anyk scope, proposal, payment, onboarding materials we zerur system access bilen başlanýar."
+      ],
+      [
+        "Asman AI biziň häzirki tools bilen işläp bilermi?",
+        "Hawa. CRM, cloud, payment, communication, analytics we içki biznes ulgamlary bilen integrasiýalary meýilleşdirip bilýäris."
+      ],
+      [
+        "Baha üýtgemeýärmi?",
+        "Baha scope, complexity, integrations, timeline we support requirements bagly. Pricing sahypasynda başlangyç aralyklar bar."
+      ],
+      [
+        "Launch-dan soň näme bolýar?",
+        "Support monitoring, improvements, bug fixes, documentation, handoff we future feature development öz içine alyp biler."
+      ]
+    ]
+  },
+  "legalHub": {
+    "eyebrow": "Legal",
+    "title": "Şertler we syýasatlar",
+    "text": "Asman AI hyzmatlary, tölegler, delivery, privacy, refunds we acceptable use barada möhüm hukuk maglumatlary.",
+    "notice": "Asman AI ASMAN LLC tarapyndan dolandyrylýan brenddir. Bu syýasatlar accepted proposal, invoice, statement of work ýa service agreement bilen bile okalmalydyr.",
+    "cards": [
+      [
+        "Şertler we düzgünler",
+        "Asman AI hyzmatlaryna requests, proposals, purchases, project agreements we use degişli service terms."
+      ],
+      [
+        "Gizlinlik syýasaty",
+        "Business we personal information nähili ýygnalýar, ulanylýar, saklanýar we goralýar."
+      ],
+      [
+        "Refund syýasaty",
+        "Custom digital services, consulting, software work we project preparation üçin refund handling."
+      ],
+      [
+        "Cookie syýasaty",
+        "Website cookies, analytics, functionality we preference technologies barada maglumat."
+      ],
+      [
+        "Acceptable Use Policy",
+        "Asman AI systems, software, automation we AI-enabled services üçin responsible-use standards."
+      ],
+      [
+        "Payment Terms",
+        "Payment requirements, advance invoicing, project activation, third-party costs we service fees."
+      ],
+      [
+        "Project Delivery Policy",
+        "Scope approval, delivery timelines, client responsibilities, revisions, delays we suspension rules."
+      ],
+      [
+        "Cancellation Policy",
+        "Iş başlamazdan öň, başlandan soň we client-caused delays wagty cancellations nähili dolandyrylýar."
+      ],
+      [
+        "Intellectual Property Policy",
+        "Final deliverables, reusable frameworks, methods, proprietary tools we existing assets ownership."
+      ]
+    ]
   }
 }

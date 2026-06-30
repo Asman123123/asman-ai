@@ -18,9 +18,9 @@ export function Footer() {
           </p>
           <div className="mt-6 flex flex-wrap gap-2 text-xs font-black text-white/48">
             <span className="rounded-full border border-white/10 px-3 py-1">Global Delivery</span>
-            <span className="rounded-full border border-white/10 px-3 py-1">AI Automation</span>
-            <span className="rounded-full border border-white/10 px-3 py-1">Software Development</span>
-            <span className="rounded-full border border-white/10 px-3 py-1">SaaS Solutions</span>
+            <span className="rounded-full border border-white/10 px-3 py-1">{t.services.ai}</span>
+            <span className="rounded-full border border-white/10 px-3 py-1">{t.services.software}</span>
+            <span className="rounded-full border border-white/10 px-3 py-1">{t.services.saas}</span>
           </div>
         </div>
         <div className="grid content-start gap-3 text-sm text-white/58">

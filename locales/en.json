@@ -55,6 +55,23 @@
         "Automation",
         "CRM, workflows, reporting"
       ]
+    ],
+    "panelRows": [
+      [
+        "Lead intake",
+        "Qualified and routed",
+        "Active"
+      ],
+      [
+        "CRM pipeline",
+        "Follow-up sequence ready",
+        "Ready"
+      ],
+      [
+        "Executive dashboard",
+        "Operational signal detected",
+        "Live"
+      ]
     ]
   },
   "sections": {
@@ -174,6 +191,522 @@
     "recommended": "Recommended",
     "bestFor": "Best for",
     "timeline": "Timeline",
-    "capability": "Capability"
+    "capability": "Capability",
+    "view": "View",
+    "problem": "Problem",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "metrics": "Metrics",
+    "outcome": "Outcome"
+  },
+  "pages": {
+    "services": {
+      "eyebrow": "Services",
+      "title": "AI automation, custom software, and SaaS systems built for growth",
+      "text": "Premium technical execution for organizations ready to replace manual work with intelligent systems."
+    },
+    "industries": {
+      "eyebrow": "Industries",
+      "title": "Automation and software for operationally intense industries",
+      "text": "We focus on workflows where better systems directly improve speed, conversion, and service quality."
+    },
+    "caseStudies": {
+      "eyebrow": "Case Studies",
+      "title": "Enterprise case studies with measurable operating leverage",
+      "text": "Representative client industry examples with challenge, solution, outcome, and ROI metrics."
+    },
+    "pricing": {
+      "eyebrow": "Pricing",
+      "title": "Premium technology packages for serious B2B execution",
+      "text": "Clear starting points for automation, software, and enterprise systems. Enterprise is highlighted because larger systems need deeper architecture and governance."
+    },
+    "about": {
+      "eyebrow": "About",
+      "title": "Technology partner for AI-powered business systems",
+      "text": "Asman AI helps businesses build AI-powered software, automate operations, and launch scalable digital platforms.",
+      "brandLine": "AI Automation - Software Development - SaaS Solutions",
+      "blocks": [
+        [
+          "Mission",
+          "Transform manual operations into intelligent, scalable digital systems."
+        ],
+        [
+          "Vision",
+          "Become a trusted technology partner for businesses that need durable software infrastructure."
+        ],
+        [
+          "Our Approach",
+          "Map bottlenecks, design the architecture, build quickly, and support long-term adoption."
+        ],
+        [
+          "Why Clients Choose Us",
+          "Premium execution, clear business thinking, modern software practices, and measurable automation outcomes."
+        ]
+      ]
+    }
+  },
+  "sectionDetails": {
+    "proofText": "Premium AI automation, software development, and SaaS delivery.",
+    "trustEyebrow": "Trust",
+    "trustTitle": "Why Businesses Choose Asman AI",
+    "trustText": "Enterprise buyers need more than polished screens. They need technical ownership, secure delivery, and systems that can keep evolving.",
+    "osEyebrow": "Operating System",
+    "osTitle": "From scattered tools to one intelligent business system",
+    "osText": "Automation, data, software, and reporting work together as one durable operating layer.",
+    "osPanelEyebrow": "System Architecture",
+    "osPanelTitle": "AI workflow layer",
+    "osPanelStatus": "Live model",
+    "osSteps": [
+      [
+        "01",
+        "Capture",
+        "Forms, calls, inboxes, CRM"
+      ],
+      [
+        "02",
+        "Qualify",
+        "AI agents, scoring, routing"
+      ],
+      [
+        "03",
+        "Execute",
+        "Dashboards, workflows, SaaS"
+      ],
+      [
+        "04",
+        "Measure",
+        "KPIs, reporting, iteration"
+      ]
+    ],
+    "successEyebrow": "Client Success Stories",
+    "successTitle": "Practical results across operations, sales, and SaaS systems",
+    "successText": "Realistic examples of how better systems improve business operations.",
+    "resourcesEyebrow": "Resources Center",
+    "resourcesTitle": "Ideas for smarter systems and cleaner operations",
+    "resourcesText": "Articles, guides, and insights for teams evaluating AI automation, software development, SaaS strategy, CRM systems, and digital transformation."
+  },
+  "data": {
+    "services": [
+      {
+        "title": "AI Automation",
+        "text": "Automate customer support, sales follow-ups, internal tasks, and repetitive workflows with reliable AI systems.",
+        "proof": "Designed to compress response time and reduce manual handoffs.",
+        "features": [
+          "AI chatbots",
+          "AI employees",
+          "Workflow automation",
+          "CRM integration",
+          "Lead qualification"
+        ]
+      },
+      {
+        "title": "Software Development",
+        "text": "Build secure web applications, CRM systems, dashboards, portals, and enterprise software.",
+        "proof": "Product-grade architecture, not one-off scripts.",
+        "features": [
+          "Web applications",
+          "CRM systems",
+          "ERP systems",
+          "Admin dashboards",
+          "API integrations"
+        ]
+      },
+      {
+        "title": "SaaS Development",
+        "text": "Launch subscription products with scalable architecture, analytics, admin tools, and billing flows.",
+        "proof": "Built around activation, retention, billing, and operational visibility.",
+        "features": [
+          "SaaS MVP",
+          "Subscription billing",
+          "User dashboard",
+          "Admin panel",
+          "Cloud deployment"
+        ]
+      },
+      {
+        "title": "AI Voice Agents",
+        "text": "Answer calls, qualify leads, book appointments, and support customers around the clock.",
+        "proof": "Human-grade call flows with escalation logic.",
+        "features": [
+          "Inbound calls",
+          "Lead routing",
+          "Appointment booking",
+          "Call summaries"
+        ]
+      },
+      {
+        "title": "CRM Automation",
+        "text": "Connect forms, lead routing, sales tasks, follow-ups, and reporting into one operational system.",
+        "proof": "Clean pipeline operations from lead capture to close.",
+        "features": [
+          "HubSpot workflows",
+          "Pipeline automation",
+          "Email automation",
+          "Reporting"
+        ]
+      },
+      {
+        "title": "Enterprise Solutions",
+        "text": "Dedicated teams and robust architecture for larger operational systems and long-term product builds.",
+        "proof": "Governed delivery for systems that become company infrastructure.",
+        "features": [
+          "Dedicated team",
+          "Enterprise software",
+          "Security planning",
+          "Ongoing support"
+        ]
+      }
+    ],
+    "trustIndicators": [
+      [
+        "Enterprise Solutions",
+        "Systems designed for complex business operations"
+      ],
+      [
+        "Global Delivery",
+        "Remote-first execution for distributed teams"
+      ],
+      [
+        "Multi-Industry Expertise",
+        "Experience across operations-heavy sectors"
+      ],
+      [
+        "Long-Term Support",
+        "Technical support beyond initial launch"
+      ]
+    ],
+    "plans": [
+      {
+        "name": "Starter",
+        "description": "For teams validating automation around one core workflow.",
+        "idealFor": "Single workflow launch",
+        "timeline": "2-4 weeks",
+        "features": [
+          "AI automation setup",
+          "Basic CRM integration",
+          "1 workflow",
+          "Email support",
+          "Launch plan"
+        ]
+      },
+      {
+        "name": "Growth",
+        "description": "For companies replacing manual operations with connected software.",
+        "idealFor": "Department-level automation",
+        "timeline": "4-8 weeks",
+        "features": [
+          "AI automation",
+          "Web app or dashboard",
+          "CRM integration",
+          "3-5 workflows",
+          "Strategy consultation",
+          "Analytics setup"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "description": "For mission-critical software, multiple AI agents, and SaaS architecture.",
+        "idealFor": "Core operating systems",
+        "timeline": "8-16+ weeks",
+        "features": [
+          "Custom software",
+          "Multiple AI agents",
+          "SaaS architecture",
+          "Dedicated project manager",
+          "Ongoing support",
+          "Security planning"
+        ]
+      }
+    ],
+    "industries": [
+      [
+        "Real Estate",
+        "Lead qualification, CRM automation, and appointment booking for high-volume sales teams."
+      ],
+      [
+        "Logistics",
+        "Dispatch automation, document workflows, and client communication systems."
+      ],
+      [
+        "Healthcare",
+        "Appointment automation, patient support, and internal workflow automation."
+      ],
+      [
+        "E-commerce",
+        "Customer support AI, order updates, marketing automation, and dashboards."
+      ],
+      [
+        "Finance",
+        "Reporting dashboards, workflow automation, and client onboarding systems."
+      ],
+      [
+        "Professional Services",
+        "Client intake, project operations, knowledge workflows, and executive reporting."
+      ]
+    ],
+    "cases": [
+      {
+        "industry": "Logistics Operations Automation",
+        "challenge": "Internal workflows and dispatch operations relied on manual coordination.",
+        "solution": "Automated internal workflows, routing logic, status updates, and operational dashboards.",
+        "outcome": "Reduced manual processing time significantly.",
+        "secondary": "Dispatch coordination became faster and easier to monitor."
+      },
+      {
+        "industry": "Real Estate Sales Workflow",
+        "challenge": "Sales teams spent too much time qualifying and following up with leads manually.",
+        "solution": "Implemented AI-driven lead qualification, CRM automation, reminders, and appointment workflows.",
+        "outcome": "Improved sales efficiency and response times.",
+        "secondary": "Lead response became more consistent across the team."
+      },
+      {
+        "industry": "SaaS Infrastructure Build",
+        "challenge": "The product needed scalable architecture and internal automation to support growth.",
+        "solution": "Developed SaaS architecture, dashboards, automation systems, and cloud deployment workflows.",
+        "outcome": "Supported rapid growth and operational efficiency.",
+        "secondary": "The platform gained a cleaner foundation for product and operations teams."
+      }
+    ],
+    "operatingPrinciples": [
+      [
+        "Workflow intelligence",
+        "We map where decisions, handoffs, and customer response loops actually break down."
+      ],
+      [
+        "System architecture",
+        "Every automation is designed as part of a durable software and data foundation."
+      ],
+      [
+        "Secure integrations",
+        "CRM, billing, cloud, and AI integrations are structured with access control and auditability in mind."
+      ],
+      [
+        "Measured outcomes",
+        "Dashboards and KPIs are planned from the beginning so impact is visible after launch."
+      ]
+    ],
+    "deliverySteps": [
+      [
+        "01",
+        "Discovery",
+        "Map workflows, bottlenecks, data sources, and measurable business goals."
+      ],
+      [
+        "02",
+        "Strategy",
+        "Define the architecture, automation logic, interfaces, and rollout plan."
+      ],
+      [
+        "03",
+        "Development",
+        "Build the product, AI agents, CRM automation, dashboards, and integrations."
+      ],
+      [
+        "04",
+        "Launch & Support",
+        "Measure performance, improve adoption, and extend the system with support."
+      ]
+    ],
+    "proofBadges": [
+      [
+        "Core focus",
+        "B2B systems"
+      ],
+      [
+        "Delivery model",
+        "Strategy + build"
+      ],
+      [
+        "Systems",
+        "AI + software"
+      ],
+      [
+        "Compliance",
+        "Stripe-ready"
+      ]
+    ],
+    "comparisonRows": [
+      [
+        "AI workflows",
+        "1",
+        "3-5",
+        "Multi-agent orchestration"
+      ],
+      [
+        "Software build",
+        "Automation setup",
+        "Dashboard or web app",
+        "Custom platform"
+      ],
+      [
+        "CRM depth",
+        "Basic integration",
+        "Pipeline automation",
+        "Full operating model"
+      ],
+      [
+        "Analytics",
+        "Launch metrics",
+        "Workflow reporting",
+        "Executive dashboards"
+      ],
+      [
+        "Support",
+        "Email",
+        "Strategy sessions",
+        "Dedicated project manager"
+      ],
+      [
+        "Architecture",
+        "Standard",
+        "Scalable",
+        "SaaS + security planning"
+      ]
+    ],
+    "resourceArticles": [
+      [
+        "AI Automation",
+        "Where AI automation creates the fastest operational leverage",
+        "A practical look at workflows, handoffs, and decision points that are ready for automation."
+      ],
+      [
+        "Software Development",
+        "How to scope custom software without creating internal complexity",
+        "A guide to defining business goals, architecture, integrations, and delivery milestones."
+      ],
+      [
+        "SaaS Strategy",
+        "Building SaaS platforms that can scale beyond the MVP",
+        "What to plan early: billing, roles, analytics, admin tooling, and cloud deployment."
+      ],
+      [
+        "CRM Systems",
+        "CRM automation patterns for faster response and cleaner pipelines",
+        "Lead routing, follow-up sequences, notifications, and reporting systems that sales teams can trust."
+      ],
+      [
+        "Digital Transformation",
+        "Turning manual operations into measurable digital systems",
+        "How to move from fragmented tools to a durable operating layer for the business."
+      ]
+    ],
+    "trustReasons": [
+      [
+        "Dedicated Project Teams",
+        "Clear ownership, communication, and technical execution from strategy through launch."
+      ],
+      [
+        "Enterprise Ready Solutions",
+        "Systems designed for reliability, integration, maintainability, and operational adoption."
+      ],
+      [
+        "Global Delivery",
+        "Remote-first delivery model built for modern distributed organizations."
+      ],
+      [
+        "Long-Term Technical Support",
+        "Ongoing improvement, maintenance, and extension after the initial release."
+      ],
+      [
+        "Secure Development Practices",
+        "Practical attention to access, data flow, deployment, and operational risk."
+      ],
+      [
+        "Scalable Architecture",
+        "Software foundations that can grow with users, data, workflows, and product scope."
+      ]
+    ]
+  },
+  "resourceCards": {
+    "blog": [
+      [
+        "Operational Automation",
+        "How to identify repeatable workflows that can be improved with software and AI systems."
+      ],
+      [
+        "SaaS Planning",
+        "Practical decisions that shape billing, roles, dashboards, onboarding, and long-term platform maintenance."
+      ],
+      [
+        "CRM Workflows",
+        "Patterns for cleaner lead routing, follow-up, pipeline visibility, and reporting across sales teams."
+      ]
+    ],
+    "docs": [
+      [
+        "AI Automation Scope",
+        "How we define workflows, inputs, outputs, escalation paths, and success metrics before implementation."
+      ],
+      [
+        "Software Delivery Notes",
+        "How projects move from discovery to architecture, development, review, launch, and support."
+      ],
+      [
+        "Integration Planning",
+        "What teams should prepare before connecting CRM, payments, cloud, communications, and analytics systems."
+      ]
+    ],
+    "faqs": [
+      [
+        "How do projects begin?",
+        "Projects begin with a clear scope, proposal, payment, onboarding materials, and access to required systems."
+      ],
+      [
+        "Can Asman AI work with our existing tools?",
+        "Yes. We can plan integrations with CRM, cloud, payment, communication, analytics, and internal business systems."
+      ],
+      [
+        "Is pricing fixed?",
+        "Pricing depends on scope, complexity, integrations, timeline, and support requirements. The Pricing page provides starting ranges."
+      ],
+      [
+        "What happens after launch?",
+        "Support can include monitoring, improvements, bug fixes, documentation, handoff, and future feature development."
+      ]
+    ]
+  },
+  "legalHub": {
+    "eyebrow": "Legal",
+    "title": "Terms & Policies",
+    "text": "Important legal information regarding Asman AI services, payments, delivery, privacy, refunds, and acceptable use.",
+    "notice": "Asman AI is a brand operated by ASMAN LLC. These policies should be read together with any accepted proposal, invoice, statement of work, or service agreement.",
+    "cards": [
+      [
+        "Terms & Conditions",
+        "Service terms covering requests, proposals, purchases, project agreements, and use of Asman AI services."
+      ],
+      [
+        "Privacy Policy",
+        "How submitted business and personal information is collected, used, stored, and protected."
+      ],
+      [
+        "Refund Policy",
+        "Refund handling for custom digital services, consulting, software work, and project preparation."
+      ],
+      [
+        "Cookie Policy",
+        "Information about website cookies, analytics, functionality, and preference technologies."
+      ],
+      [
+        "Acceptable Use Policy",
+        "Responsible-use standards for Asman AI systems, software, automation, and AI-enabled services."
+      ],
+      [
+        "Payment Terms",
+        "Payment requirements, advance invoicing, project activation, third-party costs, and service fees."
+      ],
+      [
+        "Project Delivery Policy",
+        "Scope approval, delivery timelines, client responsibilities, revisions, delays, and suspension rules."
+      ],
+      [
+        "Cancellation Policy",
+        "How cancellations are handled before work begins, after work starts, and during client-caused delays."
+      ],
+      [
+        "Intellectual Property Policy",
+        "Ownership of final deliverables, reusable frameworks, methods, proprietary tools, and pre-existing assets."
+      ]
+    ]
   }
 }

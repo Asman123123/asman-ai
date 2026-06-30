@@ -55,6 +55,23 @@
         "Otomasyon",
         "CRM, iş akışları, raporlama"
       ]
+    ],
+    "panelRows": [
+      [
+        "Lead giri?i",
+        "Nitelendirildi ve y?nlendirildi",
+        "Aktif"
+      ],
+      [
+        "CRM pipeline",
+        "Takip dizisi haz?r",
+        "Haz?r"
+      ],
+      [
+        "Y?netici paneli",
+        "Operasyon sinyali alg?land?",
+        "Canl?"
+      ]
     ]
   },
   "sections": {
@@ -174,6 +191,522 @@
     "recommended": "Önerilen",
     "bestFor": "En uygun",
     "timeline": "Süre",
-    "capability": "Kapasite"
+    "capability": "Kapasite",
+    "view": "Görüntüle",
+    "problem": "Problem",
+    "challenge": "Zorluk",
+    "solution": "Çözüm",
+    "metrics": "Metrikler",
+    "outcome": "Sonuç"
+  },
+  "pages": {
+    "services": {
+      "eyebrow": "Hizmetler",
+      "title": "Büyüme için AI otomasyonu, özel yazılım ve SaaS sistemleri",
+      "text": "Manuel işleri akıllı sistemlerle değiştirmeye hazır kurumlar için premium teknik uygulama."
+    },
+    "industries": {
+      "eyebrow": "Sektörler",
+      "title": "Operasyon yoğun sektörler için otomasyon ve yazılım",
+      "text": "Daha iyi sistemlerin hız, dönüşüm ve hizmet kalitesini doğrudan artırdığı iş akışlarına odaklanıyoruz."
+    },
+    "caseStudies": {
+      "eyebrow": "Vaka Çalışmaları",
+      "title": "Ölçülebilir operasyonel kaldıraç sunan enterprise vaka çalışmaları",
+      "text": "Zorluk, çözüm, sonuç ve ROI metrikleriyle temsilî sektör örnekleri."
+    },
+    "pricing": {
+      "eyebrow": "Fiyatlandırma",
+      "title": "Ciddi B2B uygulama için premium teknoloji paketleri",
+      "text": "Otomasyon, yazılım ve enterprise sistemler için net başlangıç noktaları. Enterprise öne çıkar çünkü büyük sistemler daha derin mimari ve yönetişim gerektirir."
+    },
+    "about": {
+      "eyebrow": "Hakkımızda",
+      "title": "AI destekli iş sistemleri için teknoloji ortağı",
+      "text": "Asman AI işletmelerin AI destekli yazılım kurmasına, operasyonları otomatikleştirmesine ve ölçeklenebilir dijital platformlar başlatmasına yardımcı olur.",
+      "brandLine": "AI Otomasyonu - Yazılım Geliştirme - SaaS Çözümleri",
+      "blocks": [
+        [
+          "Misyon",
+          "Manuel operasyonları akıllı ve ölçeklenebilir dijital sistemlere dönüştürmek."
+        ],
+        [
+          "Vizyon",
+          "Dayanıklı yazılım altyapısı isteyen işletmeler için güvenilir teknoloji ortağı olmak."
+        ],
+        [
+          "Yaklaşımımız",
+          "Darboğazları haritalar, mimariyi tasarlar, hızlı inşa eder ve uzun vadeli benimsemeyi destekleriz."
+        ],
+        [
+          "Neden Bizi Seçerler",
+          "Premium uygulama, net iş düşüncesi, modern yazılım pratikleri ve ölçülebilir otomasyon sonuçları."
+        ]
+      ]
+    }
+  },
+  "sectionDetails": {
+    "proofText": "Premium AI otomasyonu, yazılım geliştirme ve SaaS teslimi.",
+    "trustEyebrow": "Güven",
+    "trustTitle": "İşletmeler Neden Asman AI Seçiyor",
+    "trustText": "Enterprise alıcılar sadece parlak ekranlardan fazlasına ihtiyaç duyar. Teknik sahiplik, güvenli teslimat ve gelişmeye devam eden sistemler gerekir.",
+    "osEyebrow": "İşletim Sistemi",
+    "osTitle": "Dağınık araçlardan tek akıllı iş sistemine",
+    "osText": "Otomasyon, veri, yazılım ve raporlama tek dayanıklı operasyon katmanı olarak birlikte çalışır.",
+    "osPanelEyebrow": "Sistem Mimarisi",
+    "osPanelTitle": "AI iş akışı katmanı",
+    "osPanelStatus": "Canlı model",
+    "osSteps": [
+      [
+        "01",
+        "Yakalama",
+        "Formlar, çağrılar, gelen kutuları, CRM"
+      ],
+      [
+        "02",
+        "Nitelendirme",
+        "AI ajanları, skorlar, yönlendirme"
+      ],
+      [
+        "03",
+        "Yürütme",
+        "Paneller, iş akışları, SaaS"
+      ],
+      [
+        "04",
+        "Ölçme",
+        "KPI, raporlama, iterasyon"
+      ]
+    ],
+    "successEyebrow": "Müşteri Başarıları",
+    "successTitle": "Operasyon, satış ve SaaS sistemlerinde pratik sonuçlar",
+    "successText": "Daha iyi sistemlerin iş operasyonlarını nasıl geliştirdiğine dair gerçekçi örnekler.",
+    "resourcesEyebrow": "Kaynak Merkezi",
+    "resourcesTitle": "Daha akıllı sistemler ve temiz operasyonlar için fikirler",
+    "resourcesText": "AI otomasyonu, yazılım geliştirme, SaaS stratejisi, CRM sistemleri ve dijital dönüşümü değerlendiren ekipler için içerikler."
+  },
+  "data": {
+    "services": [
+      {
+        "title": "AI Otomasyonu",
+        "text": "Müşteri desteğini, satış takiplerini, iç görevleri ve tekrarlı iş akışlarını güvenilir AI sistemleriyle otomatikleştirin.",
+        "proof": "Yanıt süresini kısaltmak ve manuel aktarımları azaltmak için tasarlanır.",
+        "features": [
+          "AI chatbotlar",
+          "AI çalışanları",
+          "İş akışı otomasyonu",
+          "CRM entegrasyonu",
+          "Lead nitelendirme"
+        ]
+      },
+      {
+        "title": "Yazılım Geliştirme",
+        "text": "Güvenli web uygulamaları, CRM sistemleri, paneller, portallar ve enterprise yazılım kurun.",
+        "proof": "Tek seferlik script değil, ürün kalitesinde mimari.",
+        "features": [
+          "Web uygulamaları",
+          "CRM sistemleri",
+          "ERP sistemleri",
+          "Admin panelleri",
+          "API entegrasyonları"
+        ]
+      },
+      {
+        "title": "SaaS Geliştirme",
+        "text": "Ölçeklenebilir mimari, analitik, admin araçları ve ödeme akışlarıyla abonelik ürünleri başlatın.",
+        "proof": "Aktivasyon, elde tutma, faturalama ve operasyon görünürlüğü etrafında kurulur.",
+        "features": [
+          "SaaS MVP",
+          "Abonelik ödemeleri",
+          "Kullanıcı paneli",
+          "Admin paneli",
+          "Cloud deployment"
+        ]
+      },
+      {
+        "title": "AI Ses Ajanları",
+        "text": "Çağrıları yanıtlar, leadleri nitelendirir, randevu alır ve müşterileri 7/24 destekler.",
+        "proof": "Eskalasyon mantığı olan insan kalitesinde çağrı akışları.",
+        "features": [
+          "Gelen çağrılar",
+          "Lead yönlendirme",
+          "Randevu alma",
+          "Çağrı özetleri"
+        ]
+      },
+      {
+        "title": "CRM Otomasyonu",
+        "text": "Formları, lead yönlendirmeyi, satış görevlerini, takipleri ve raporlamayı tek operasyon sistemine bağlayın.",
+        "proof": "Lead yakalamadan kapanışa temiz pipeline operasyonu.",
+        "features": [
+          "HubSpot iş akışları",
+          "Pipeline otomasyonu",
+          "E-posta otomasyonu",
+          "Raporlama"
+        ]
+      },
+      {
+        "title": "Enterprise Çözümler",
+        "text": "Daha büyük operasyonel sistemler ve uzun vadeli ürünler için özel ekipler ve sağlam mimari.",
+        "proof": "Şirket altyapısına dönüşen sistemler için yönetişimli teslimat.",
+        "features": [
+          "Özel ekip",
+          "Enterprise yazılım",
+          "Güvenlik planlama",
+          "Sürekli destek"
+        ]
+      }
+    ],
+    "trustIndicators": [
+      [
+        "Enterprise Çözümler",
+        "Karmaşık iş operasyonları için tasarlanan sistemler"
+      ],
+      [
+        "Küresel Teslimat",
+        "Dağıtık ekipler için remote-first uygulama"
+      ],
+      [
+        "Çok Sektörlü Uzmanlık",
+        "Operasyon yoğun sektörlerde deneyim"
+      ],
+      [
+        "Uzun Vadeli Destek",
+        "İlk lansmandan sonra teknik destek"
+      ]
+    ],
+    "plans": [
+      {
+        "name": "Starter",
+        "description": "Tek bir ana iş akışı etrafında otomasyonu doğrulayan ekipler için.",
+        "idealFor": "Tek workflow lansmanı",
+        "timeline": "2-4 hafta",
+        "features": [
+          "AI otomasyon kurulumu",
+          "Temel CRM entegrasyonu",
+          "1 workflow",
+          "E-posta desteği",
+          "Lansman planı"
+        ]
+      },
+      {
+        "name": "Growth",
+        "description": "Manuel operasyonları bağlantılı yazılımla değiştiren şirketler için.",
+        "idealFor": "Departman seviyesi otomasyon",
+        "timeline": "4-8 hafta",
+        "features": [
+          "AI otomasyonu",
+          "Web app veya dashboard",
+          "CRM entegrasyonu",
+          "3-5 workflow",
+          "Strateji danışmanlığı",
+          "Analitik kurulumu"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "description": "Mission-critical yazılım, çoklu AI ajanları ve SaaS mimarisi için.",
+        "idealFor": "Temel operasyon sistemleri",
+        "timeline": "8-16+ hafta",
+        "features": [
+          "Custom software",
+          "Çoklu AI ajanları",
+          "SaaS mimarisi",
+          "Özel proje yöneticisi",
+          "Sürekli destek",
+          "Güvenlik planlama"
+        ]
+      }
+    ],
+    "industries": [
+      [
+        "Gayrimenkul",
+        "Yüksek hacimli satış ekipleri için lead nitelendirme, CRM otomasyonu ve randevu alma."
+      ],
+      [
+        "Lojistik",
+        "Dispatch otomasyonu, doküman iş akışları ve müşteri iletişim sistemleri."
+      ],
+      [
+        "Sağlık",
+        "Randevu otomasyonu, hasta desteği ve iç iş akışı otomasyonu."
+      ],
+      [
+        "E-ticaret",
+        "Müşteri destek AI, sipariş güncellemeleri, pazarlama otomasyonu ve paneller."
+      ],
+      [
+        "Finans",
+        "Raporlama panelleri, iş akışı otomasyonu ve müşteri onboarding sistemleri."
+      ],
+      [
+        "Profesyonel Hizmetler",
+        "Müşteri kabulü, proje operasyonları, bilgi iş akışları ve yönetici raporlaması."
+      ]
+    ],
+    "cases": [
+      {
+        "industry": "Lojistik Operasyon Otomasyonu",
+        "challenge": "İç iş akışları ve dispatch operasyonları manuel koordinasyona bağlıydı.",
+        "solution": "İç iş akışları, routing logic, status updates ve operasyon panelleri otomatikleştirildi.",
+        "outcome": "Manuel işlem süresi önemli ölçüde azaldı.",
+        "secondary": "Dispatch koordinasyonu daha hızlı ve izlenebilir hale geldi."
+      },
+      {
+        "industry": "Gayrimenkul Satış İş Akışı",
+        "challenge": "Satış ekipleri leadleri manuel nitelendirme ve takip için çok zaman harcıyordu.",
+        "solution": "AI destekli lead nitelendirme, CRM otomasyonu, hatırlatıcılar ve randevu iş akışları uygulandı.",
+        "outcome": "Satış verimliliği ve yanıt süreleri iyileşti.",
+        "secondary": "Lead yanıtları ekip genelinde daha tutarlı hale geldi."
+      },
+      {
+        "industry": "SaaS Altyapı İnşası",
+        "challenge": "Ürünün büyümeyi desteklemek için ölçeklenebilir mimariye ve iç otomasyona ihtiyacı vardı.",
+        "solution": "SaaS mimarisi, paneller, otomasyon sistemleri ve cloud deployment iş akışları geliştirildi.",
+        "outcome": "Hızlı büyüme ve operasyon verimliliği desteklendi.",
+        "secondary": "Platform ürün ve operasyon ekipleri için daha temiz bir temel kazandı."
+      }
+    ],
+    "operatingPrinciples": [
+      [
+        "İş akışı zekası",
+        "Kararların, aktarımların ve müşteri yanıt döngülerinin nerede bozulduğunu haritalarız."
+      ],
+      [
+        "Sistem mimarisi",
+        "Her otomasyon dayanıklı bir yazılım ve veri temeli parçası olarak tasarlanır."
+      ],
+      [
+        "Güvenli entegrasyonlar",
+        "CRM, billing, cloud ve AI entegrasyonları erişim kontrolü ve denetlenebilirlik ile yapılandırılır."
+      ],
+      [
+        "Ölçülen sonuçlar",
+        "Etkinin lansmandan sonra görünür olması için dashboard ve KPI baştan planlanır."
+      ]
+    ],
+    "deliverySteps": [
+      [
+        "01",
+        "Keşif",
+        "İş akışlarını, darboğazları, veri kaynaklarını ve ölçülebilir iş hedeflerini haritalarız."
+      ],
+      [
+        "02",
+        "Strateji",
+        "Mimariyi, otomasyon mantığını, arayüzleri ve rollout planını tanımlarız."
+      ],
+      [
+        "03",
+        "Geliştirme",
+        "Ürünü, AI ajanlarını, CRM otomasyonunu, panelleri ve entegrasyonları kurarız."
+      ],
+      [
+        "04",
+        "Lansman ve Destek",
+        "Performansı ölçer, benimsemeyi artırır ve sistemi destekle genişletiriz."
+      ]
+    ],
+    "proofBadges": [
+      [
+        "Ana odak",
+        "B2B sistemleri"
+      ],
+      [
+        "Teslimat modeli",
+        "Strateji + build"
+      ],
+      [
+        "Sistemler",
+        "AI + yazılım"
+      ],
+      [
+        "Uyumluluk",
+        "Stripe-ready"
+      ]
+    ],
+    "comparisonRows": [
+      [
+        "AI iş akışları",
+        "1",
+        "3-5",
+        "Multi-agent orchestration"
+      ],
+      [
+        "Yazılım build",
+        "Otomasyon kurulumu",
+        "Dashboard veya web app",
+        "Custom platform"
+      ],
+      [
+        "CRM derinliği",
+        "Temel entegrasyon",
+        "Pipeline otomasyonu",
+        "Full operating model"
+      ],
+      [
+        "Analitik",
+        "Lansman metrikleri",
+        "Workflow reporting",
+        "Executive dashboards"
+      ],
+      [
+        "Destek",
+        "E-posta",
+        "Strateji oturumları",
+        "Özel proje yöneticisi"
+      ],
+      [
+        "Mimari",
+        "Standart",
+        "Ölçeklenebilir",
+        "SaaS + güvenlik planlama"
+      ]
+    ],
+    "resourceArticles": [
+      [
+        "AI Otomasyonu",
+        "AI otomasyonunun en hızlı operasyonel kaldıraç yarattığı yerler",
+        "Otomasyona hazır iş akışları, aktarımlar ve karar noktalarına pratik bakış."
+      ],
+      [
+        "Yazılım Geliştirme",
+        "İç karmaşıklık yaratmadan custom software nasıl scope edilir",
+        "İş hedefleri, mimari, entegrasyonlar ve teslimat kilometre taşlarını tanımlama rehberi."
+      ],
+      [
+        "SaaS Stratejisi",
+        "MVP ötesinde ölçeklenebilen SaaS platformları kurmak",
+        "Erken planlanacaklar: billing, roles, analytics, admin tooling ve cloud deployment."
+      ],
+      [
+        "CRM Sistemleri",
+        "Daha hızlı yanıt ve temiz pipeline için CRM otomasyon kalıpları",
+        "Satış ekiplerinin güvenebileceği lead routing, takip dizileri, bildirimler ve raporlama."
+      ],
+      [
+        "Dijital Dönüşüm",
+        "Manuel operasyonları ölçülebilir dijital sistemlere çevirmek",
+        "Dağınık araçlardan işletme için dayanıklı operating layer’a geçiş."
+      ]
+    ],
+    "trustReasons": [
+      [
+        "Özel Proje Ekipleri",
+        "Stratejiden lansmana net sahiplik, iletişim ve teknik uygulama."
+      ],
+      [
+        "Enterprise Ready Çözümler",
+        "Güvenilirlik, entegrasyon, sürdürülebilirlik ve operasyonel benimseme için tasarlanan sistemler."
+      ],
+      [
+        "Küresel Teslimat",
+        "Modern dağıtık kurumlar için remote-first teslimat modeli."
+      ],
+      [
+        "Uzun Vadeli Teknik Destek",
+        "İlk sürümden sonra sürekli iyileştirme, bakım ve genişletme."
+      ],
+      [
+        "Güvenli Geliştirme Pratikleri",
+        "Erişim, veri akışı, deployment ve operasyonel riske pratik dikkat."
+      ],
+      [
+        "Ölçeklenebilir Mimari",
+        "Kullanıcı, veri, workflow ve ürün kapsamıyla büyüyen yazılım temeli."
+      ]
+    ]
+  },
+  "resourceCards": {
+    "blog": [
+      [
+        "Operasyonel Otomasyon",
+        "Yazılım ve AI sistemleriyle iyileştirilebilecek tekrarlı iş akışlarını belirleme."
+      ],
+      [
+        "SaaS Planlama",
+        "Billing, roller, paneller, onboarding ve uzun vadeli bakım kararları."
+      ],
+      [
+        "CRM İş Akışları",
+        "Daha temiz lead routing, takip, pipeline görünürlüğü ve satış raporlaması kalıpları."
+      ]
+    ],
+    "docs": [
+      [
+        "AI Otomasyon Kapsamı",
+        "Uygulama öncesi workflows, inputs, outputs, escalation paths ve success metrics nasıl tanımlanır."
+      ],
+      [
+        "Yazılım Teslim Notları",
+        "Projelerin discovery’den mimari, geliştirme, review, launch ve support’a ilerleyişi."
+      ],
+      [
+        "Entegrasyon Planlama",
+        "CRM, payments, cloud, communications ve analytics bağlamadan önce hazırlanacaklar."
+      ]
+    ],
+    "faqs": [
+      [
+        "Projeler nasıl başlar?",
+        "Projeler net scope, proposal, payment, onboarding materials ve gerekli sistem erişimleriyle başlar."
+      ],
+      [
+        "Asman AI mevcut araçlarımızla çalışabilir mi?",
+        "Evet. CRM, cloud, payment, communication, analytics ve iç sistemlerle entegrasyon planlayabiliriz."
+      ],
+      [
+        "Fiyat sabit mi?",
+        "Fiyat scope, complexity, integrations, timeline ve support requirements’a bağlıdır. Pricing sayfası başlangıç aralıkları sunar."
+      ],
+      [
+        "Lansmandan sonra ne olur?",
+        "Destek monitoring, improvements, bug fixes, documentation, handoff ve future feature development içerebilir."
+      ]
+    ]
+  },
+  "legalHub": {
+    "eyebrow": "Legal",
+    "title": "Şartlar ve Politikalar",
+    "text": "Asman AI hizmetleri, ödemeler, teslimat, gizlilik, iadeler ve kabul edilebilir kullanım hakkında önemli yasal bilgiler.",
+    "notice": "Asman AI, ASMAN LLC tarafından işletilen bir markadır. Bu politikalar kabul edilmiş proposal, invoice, statement of work veya service agreement ile birlikte okunmalıdır.",
+    "cards": [
+      [
+        "Şartlar ve Koşullar",
+        "Asman AI hizmetlerinin talepleri, teklifleri, satın alımları, proje anlaşmaları ve kullanımı için hizmet şartları."
+      ],
+      [
+        "Gizlilik Politikası",
+        "Gönderilen business ve personal information nasıl toplanır, kullanılır, saklanır ve korunur."
+      ],
+      [
+        "İade Politikası",
+        "Custom digital services, consulting, software work ve project preparation için iade yönetimi."
+      ],
+      [
+        "Cookie Politikası",
+        "Website cookies, analytics, functionality ve preference technologies hakkında bilgi."
+      ],
+      [
+        "Kabul Edilebilir Kullanım Politikası",
+        "Asman AI systems, software, automation ve AI-enabled services için responsible-use standartları."
+      ],
+      [
+        "Ödeme Şartları",
+        "Ödeme gereksinimleri, advance invoicing, project activation, third-party costs ve service fees."
+      ],
+      [
+        "Proje Teslim Politikası",
+        "Scope approval, delivery timelines, client responsibilities, revisions, delays ve suspension rules."
+      ],
+      [
+        "İptal Politikası",
+        "Çalışma başlamadan önce, başladıktan sonra ve client-caused delays sırasında iptallerin yönetimi."
+      ],
+      [
+        "Fikri Mülkiyet Politikası",
+        "Final deliverables, reusable frameworks, methods, proprietary tools ve existing assets ownership."
+      ]
+    ]
   }
 }

@@ -149,23 +149,20 @@ export function Hero() {
               </div>
 
               <div className="mt-6 grid gap-4">
-                {[
-                  [Workflow, "Lead intake", "Qualified and routed", "Active"],
-                  [DatabaseZap, "CRM pipeline", "Follow-up sequence ready", "Ready"],
-                  [Activity, "Executive dashboard", "Operational signal detected", "Live"],
-                ].map(([Icon, title, text, value]) => {
-                  const TypedIcon = Icon as typeof Workflow;
+                {[Workflow, DatabaseZap, Activity].map((Icon, index) => {
+                  const [title, text, value] = t.hero.panelRows[index];
+                  const TypedIcon = Icon;
                   return (
-                    <div key={title as string} className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
+                    <div key={title} className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
                       <div className="flex items-center justify-between gap-4">
                         <div className="flex items-center gap-3">
                           <span className="grid h-10 w-10 place-items-center rounded-xl border border-white/10 text-aura"><TypedIcon size={19} /></span>
                           <span>
-                            <span className="block text-sm font-black text-white">{title as string}</span>
-                            <span className="text-xs text-white/42">{text as string}</span>
+                            <span className="block text-sm font-black text-white">{title}</span>
+                            <span className="text-xs text-white/42">{text}</span>
                           </span>
                         </div>
-                        <span className="text-sm font-black text-aura">{value as string}</span>
+                        <span className="text-sm font-black text-aura">{value}</span>
                       </div>
                     </div>
                   );

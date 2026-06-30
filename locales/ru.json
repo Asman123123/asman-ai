@@ -55,6 +55,23 @@
         "Автоматизация",
         "CRM, процессы, отчеты"
       ]
+    ],
+    "panelRows": [
+      [
+        "????? ?????",
+        "??????????????? ? ??????????",
+        "???????"
+      ],
+      [
+        "CRM pipeline",
+        "Follow-up sequence ??????",
+        "??????"
+      ],
+      [
+        "??????? ????????????",
+        "???????????? ?????? ?????????",
+        "Live"
+      ]
     ]
   },
   "sections": {
@@ -174,6 +191,522 @@
     "recommended": "Рекомендуем",
     "bestFor": "Для кого",
     "timeline": "Сроки",
-    "capability": "Возможность"
+    "capability": "Возможность",
+    "view": "Открыть",
+    "problem": "Проблема",
+    "challenge": "Задача",
+    "solution": "Решение",
+    "metrics": "Метрики",
+    "outcome": "Результат"
+  },
+  "pages": {
+    "services": {
+      "eyebrow": "Услуги",
+      "title": "AI-автоматизация, custom software и SaaS-системы для роста",
+      "text": "Премиальная техническая реализация для компаний, которые готовы заменить ручную работу интеллектуальными системами."
+    },
+    "industries": {
+      "eyebrow": "Отрасли",
+      "title": "Автоматизация и ПО для операционно сложных отраслей",
+      "text": "Мы фокусируемся на процессах, где качественные системы напрямую улучшают скорость, конверсию и сервис."
+    },
+    "caseStudies": {
+      "eyebrow": "Кейсы",
+      "title": "Enterprise-кейсы с измеримым операционным эффектом",
+      "text": "Примеры отраслевых сценариев с задачей, решением, результатом и ROI-метриками."
+    },
+    "pricing": {
+      "eyebrow": "Цены",
+      "title": "Премиальные технологические пакеты для серьезной B2B-реализации",
+      "text": "Понятные стартовые варианты для автоматизации, ПО и enterprise-систем. Enterprise выделен, потому что крупные системы требуют глубокой архитектуры и управления."
+    },
+    "about": {
+      "eyebrow": "О компании",
+      "title": "Технологический партнер для AI-систем бизнеса",
+      "text": "Asman AI помогает бизнесу создавать AI-powered software, автоматизировать операции и запускать масштабируемые цифровые платформы.",
+      "brandLine": "AI-автоматизация - Разработка ПО - SaaS-решения",
+      "blocks": [
+        [
+          "Миссия",
+          "Превращать ручные операции в интеллектуальные масштабируемые цифровые системы."
+        ],
+        [
+          "Видение",
+          "Стать надежным технологическим партнером для компаний, которым нужна прочная программная инфраструктура."
+        ],
+        [
+          "Наш подход",
+          "Находим узкие места, проектируем архитектуру, быстро строим и поддерживаем долгосрочное внедрение."
+        ],
+        [
+          "Почему выбирают нас",
+          "Премиальная реализация, ясное бизнес-мышление, современные практики разработки и измеримые результаты автоматизации."
+        ]
+      ]
+    }
+  },
+  "sectionDetails": {
+    "proofText": "Премиальная AI-автоматизация, разработка ПО и SaaS-поставка.",
+    "trustEyebrow": "Доверие",
+    "trustTitle": "Почему бизнес выбирает Asman AI",
+    "trustText": "Enterprise-покупателям нужны не только красивые экраны. Им нужны техническая ответственность, безопасная поставка и системы, которые продолжают развиваться.",
+    "osEyebrow": "Операционная система",
+    "osTitle": "От разрозненных инструментов к единой интеллектуальной бизнес-системе",
+    "osText": "Автоматизация, данные, ПО и отчетность работают вместе как устойчивый операционный слой.",
+    "osPanelEyebrow": "Архитектура системы",
+    "osPanelTitle": "AI-слой workflows",
+    "osPanelStatus": "Живая модель",
+    "osSteps": [
+      [
+        "01",
+        "Сбор",
+        "Формы, звонки, inbox, CRM"
+      ],
+      [
+        "02",
+        "Квалификация",
+        "AI-агенты, скоринг, маршрутизация"
+      ],
+      [
+        "03",
+        "Исполнение",
+        "Дашборды, workflows, SaaS"
+      ],
+      [
+        "04",
+        "Измерение",
+        "KPI, отчеты, итерации"
+      ]
+    ],
+    "successEyebrow": "Истории успеха",
+    "successTitle": "Практические результаты в операциях, продажах и SaaS-системах",
+    "successText": "Реалистичные примеры того, как более качественные системы улучшают бизнес-операции.",
+    "resourcesEyebrow": "Центр ресурсов",
+    "resourcesTitle": "Идеи для умных систем и чистых операций",
+    "resourcesText": "Статьи, гайды и инсайты для команд, оценивающих AI-автоматизацию, разработку ПО, SaaS-стратегию, CRM и цифровую трансформацию."
+  },
+  "data": {
+    "services": [
+      {
+        "title": "AI-автоматизация",
+        "text": "Автоматизируйте поддержку клиентов, sales follow-up, внутренние задачи и повторяющиеся workflows надежными AI-системами.",
+        "proof": "Сокращает время ответа и уменьшает ручные передачи.",
+        "features": [
+          "AI-чатботы",
+          "AI-сотрудники",
+          "Workflow automation",
+          "CRM-интеграция",
+          "Квалификация лидов"
+        ]
+      },
+      {
+        "title": "Разработка ПО",
+        "text": "Создаем безопасные веб-приложения, CRM, дашборды, порталы и enterprise software.",
+        "proof": "Продуктовая архитектура, а не одноразовые скрипты.",
+        "features": [
+          "Веб-приложения",
+          "CRM-системы",
+          "ERP-системы",
+          "Admin dashboards",
+          "API-интеграции"
+        ]
+      },
+      {
+        "title": "SaaS-разработка",
+        "text": "Запускаем subscription-продукты с масштабируемой архитектурой, аналитикой, админ-инструментами и billing flows.",
+        "proof": "Построено вокруг activation, retention, billing и операционной видимости.",
+        "features": [
+          "SaaS MVP",
+          "Subscription billing",
+          "User dashboard",
+          "Admin panel",
+          "Cloud deployment"
+        ]
+      },
+      {
+        "title": "AI-голосовые агенты",
+        "text": "Отвечают на звонки, квалифицируют лиды, бронируют встречи и поддерживают клиентов 24/7.",
+        "proof": "Человечные сценарии звонков с логикой эскалации.",
+        "features": [
+          "Входящие звонки",
+          "Маршрутизация лидов",
+          "Бронирование встреч",
+          "Сводки звонков"
+        ]
+      },
+      {
+        "title": "CRM-автоматизация",
+        "text": "Соединяем формы, маршрутизацию лидов, sales-задачи, follow-up и отчеты в одну операционную систему.",
+        "proof": "Чистая работа pipeline от лида до сделки.",
+        "features": [
+          "HubSpot workflows",
+          "Pipeline automation",
+          "Email automation",
+          "Отчетность"
+        ]
+      },
+      {
+        "title": "Enterprise-решения",
+        "text": "Выделенные команды и надежная архитектура для крупных операционных систем и долгосрочных product builds.",
+        "proof": "Управляемая поставка для систем, которые становятся инфраструктурой компании.",
+        "features": [
+          "Выделенная команда",
+          "Enterprise software",
+          "Планирование безопасности",
+          "Постоянная поддержка"
+        ]
+      }
+    ],
+    "trustIndicators": [
+      [
+        "Enterprise-решения",
+        "Системы для сложных бизнес-операций"
+      ],
+      [
+        "Глобальная поставка",
+        "Remote-first реализация для распределенных команд"
+      ],
+      [
+        "Многоотраслевая экспертиза",
+        "Опыт в операционно сложных секторах"
+      ],
+      [
+        "Долгосрочная поддержка",
+        "Техническая поддержка после запуска"
+      ]
+    ],
+    "plans": [
+      {
+        "name": "Starter",
+        "description": "Для команд, проверяющих автоматизацию одного ключевого workflow.",
+        "idealFor": "Запуск одного workflow",
+        "timeline": "2-4 недели",
+        "features": [
+          "AI automation setup",
+          "Базовая CRM-интеграция",
+          "1 workflow",
+          "Email support",
+          "Launch plan"
+        ]
+      },
+      {
+        "name": "Growth",
+        "description": "Для компаний, заменяющих ручные операции связанным software.",
+        "idealFor": "Автоматизация отдела",
+        "timeline": "4-8 недель",
+        "features": [
+          "AI-автоматизация",
+          "Web app или dashboard",
+          "CRM-интеграция",
+          "3-5 workflows",
+          "Strategy consultation",
+          "Analytics setup"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "description": "Для mission-critical software, нескольких AI-агентов и SaaS-архитектуры.",
+        "idealFor": "Core operating systems",
+        "timeline": "8-16+ недель",
+        "features": [
+          "Custom software",
+          "Несколько AI-агентов",
+          "SaaS architecture",
+          "Dedicated project manager",
+          "Ongoing support",
+          "Security planning"
+        ]
+      }
+    ],
+    "industries": [
+      [
+        "Недвижимость",
+        "Квалификация лидов, CRM-автоматизация и запись встреч для sales-команд с большим потоком."
+      ],
+      [
+        "Логистика",
+        "Автоматизация диспетчеризации, документооборота и клиентских коммуникаций."
+      ],
+      [
+        "Здравоохранение",
+        "Автоматизация записей, поддержки пациентов и внутренних workflows."
+      ],
+      [
+        "E-commerce",
+        "AI-поддержка клиентов, обновления заказов, маркетинг-автоматизация и дашборды."
+      ],
+      [
+        "Финансы",
+        "Отчетные дашборды, workflow automation и клиентский onboarding."
+      ],
+      [
+        "Профессиональные услуги",
+        "Client intake, проектные операции, knowledge workflows и executive reporting."
+      ]
+    ],
+    "cases": [
+      {
+        "industry": "Автоматизация логистических операций",
+        "challenge": "Внутренние workflows и диспетчеризация зависели от ручной координации.",
+        "solution": "Автоматизированы workflows, routing logic, status updates и операционные dashboards.",
+        "outcome": "Ручная обработка заметно сократилась.",
+        "secondary": "Диспетчеризацию стало проще ускорять и контролировать."
+      },
+      {
+        "industry": "Sales workflow в недвижимости",
+        "challenge": "Sales-команды тратили слишком много времени на ручную квалификацию и follow-up лидов.",
+        "solution": "Внедрены AI-квалификация лидов, CRM automation, reminders и appointment workflows.",
+        "outcome": "Улучшились эффективность продаж и скорость ответа.",
+        "secondary": "Ответы на лиды стали стабильнее по всей команде."
+      },
+      {
+        "industry": "Создание SaaS-инфраструктуры",
+        "challenge": "Продукту нужна была масштабируемая архитектура и внутренняя автоматизация для роста.",
+        "solution": "Разработаны SaaS architecture, dashboards, automation systems и cloud deployment workflows.",
+        "outcome": "Поддержан быстрый рост и операционная эффективность.",
+        "secondary": "Платформа получила более чистую основу для product и operations teams."
+      }
+    ],
+    "operatingPrinciples": [
+      [
+        "Workflow intelligence",
+        "Мы показываем, где решения, передачи и циклы ответа клиентам реально ломаются."
+      ],
+      [
+        "Архитектура системы",
+        "Каждая автоматизация проектируется как часть прочной software и data foundation."
+      ],
+      [
+        "Безопасные интеграции",
+        "CRM, billing, cloud и AI-интеграции строятся с учетом контроля доступа и аудита."
+      ],
+      [
+        "Измеримые результаты",
+        "Дашборды и KPI планируются с начала, чтобы эффект был виден после запуска."
+      ]
+    ],
+    "deliverySteps": [
+      [
+        "01",
+        "Discovery",
+        "Картируем workflows, узкие места, источники данных и измеримые бизнес-цели."
+      ],
+      [
+        "02",
+        "Стратегия",
+        "Определяем архитектуру, логику автоматизации, интерфейсы и rollout plan."
+      ],
+      [
+        "03",
+        "Разработка",
+        "Создаем продукт, AI-агентов, CRM-автоматизацию, дашборды и интеграции."
+      ],
+      [
+        "04",
+        "Запуск и поддержка",
+        "Измеряем performance, улучшаем adoption и расширяем систему с поддержкой."
+      ]
+    ],
+    "proofBadges": [
+      [
+        "Фокус",
+        "B2B-системы"
+      ],
+      [
+        "Модель поставки",
+        "Стратегия + build"
+      ],
+      [
+        "Системы",
+        "AI + software"
+      ],
+      [
+        "Готовность",
+        "Stripe-ready"
+      ]
+    ],
+    "comparisonRows": [
+      [
+        "AI workflows",
+        "1",
+        "3-5",
+        "Multi-agent orchestration"
+      ],
+      [
+        "Software build",
+        "Automation setup",
+        "Dashboard или web app",
+        "Custom platform"
+      ],
+      [
+        "CRM depth",
+        "Basic integration",
+        "Pipeline automation",
+        "Full operating model"
+      ],
+      [
+        "Analytics",
+        "Launch metrics",
+        "Workflow reporting",
+        "Executive dashboards"
+      ],
+      [
+        "Support",
+        "Email",
+        "Strategy sessions",
+        "Dedicated project manager"
+      ],
+      [
+        "Architecture",
+        "Standard",
+        "Scalable",
+        "SaaS + security planning"
+      ]
+    ],
+    "resourceArticles": [
+      [
+        "AI-автоматизация",
+        "Где AI-автоматизация быстрее всего дает операционный leverage",
+        "Практический взгляд на workflows, handoffs и decision points, готовые к автоматизации."
+      ],
+      [
+        "Разработка ПО",
+        "Как scope custom software без лишней внутренней сложности",
+        "Гайд по определению бизнес-целей, архитектуры, интеграций и delivery milestones."
+      ],
+      [
+        "SaaS-стратегия",
+        "Как строить SaaS-платформы, которые масштабируются после MVP",
+        "Что планировать заранее: billing, roles, analytics, admin tooling и cloud deployment."
+      ],
+      [
+        "CRM-системы",
+        "CRM automation patterns для более быстрых ответов и чистого pipeline",
+        "Lead routing, follow-up sequences, notifications и reports, которым sales-команды доверяют."
+      ],
+      [
+        "Цифровая трансформация",
+        "Как превратить ручные операции в измеримые цифровые системы",
+        "Переход от разрозненных tools к устойчивому operating layer бизнеса."
+      ]
+    ],
+    "trustReasons": [
+      [
+        "Выделенные проектные команды",
+        "Четкая ответственность, коммуникация и техническая реализация от стратегии до запуска."
+      ],
+      [
+        "Enterprise-ready решения",
+        "Системы, рассчитанные на надежность, интеграции, maintainability и operational adoption."
+      ],
+      [
+        "Глобальная поставка",
+        "Remote-first модель для современных распределенных организаций."
+      ],
+      [
+        "Долгосрочная техподдержка",
+        "Постоянные улучшения, поддержка и расширение после первого релиза."
+      ],
+      [
+        "Безопасные практики разработки",
+        "Практическое внимание к доступам, data flow, deployment и операционным рискам."
+      ],
+      [
+        "Масштабируемая архитектура",
+        "Software foundation, который растет вместе с users, data, workflows и product scope."
+      ]
+    ]
+  },
+  "resourceCards": {
+    "blog": [
+      [
+        "Операционная автоматизация",
+        "Как найти повторяемые workflows, которые можно улучшить software и AI-системами."
+      ],
+      [
+        "SaaS-планирование",
+        "Практические решения для billing, roles, dashboards, onboarding и долгосрочной поддержки платформы."
+      ],
+      [
+        "CRM workflows",
+        "Паттерны для lead routing, follow-up, pipeline visibility и sales reporting."
+      ]
+    ],
+    "docs": [
+      [
+        "Scope AI-автоматизации",
+        "Как мы определяем workflows, inputs, outputs, escalation paths и success metrics до внедрения."
+      ],
+      [
+        "Заметки по delivery",
+        "Как проекты проходят discovery, architecture, development, review, launch и support."
+      ],
+      [
+        "Планирование интеграций",
+        "Что подготовить перед подключением CRM, payments, cloud, communications и analytics systems."
+      ]
+    ],
+    "faqs": [
+      [
+        "Как начинаются проекты?",
+        "Проекты начинаются с понятного scope, proposal, payment, onboarding materials и доступа к нужным системам."
+      ],
+      [
+        "Может ли Asman AI работать с нашими текущими tools?",
+        "Да. Мы можем планировать интеграции с CRM, cloud, payments, communications, analytics и внутренними бизнес-системами."
+      ],
+      [
+        "Цена фиксированная?",
+        "Цена зависит от scope, complexity, integrations, timeline и support requirements. На странице Pricing указаны стартовые диапазоны."
+      ],
+      [
+        "Что происходит после запуска?",
+        "Support может включать monitoring, improvements, bug fixes, documentation, handoff и future feature development."
+      ]
+    ]
+  },
+  "legalHub": {
+    "eyebrow": "Legal",
+    "title": "Условия и политики",
+    "text": "Важная юридическая информация об услугах Asman AI, оплате, поставке, privacy, refunds и acceptable use.",
+    "notice": "Asman AI является брендом, которым управляет ASMAN LLC. Эти политики следует читать вместе с accepted proposal, invoice, statement of work или service agreement.",
+    "cards": [
+      [
+        "Условия использования",
+        "Условия сервисов, запросов, proposals, purchases, project agreements и использования услуг Asman AI."
+      ],
+      [
+        "Политика конфиденциальности",
+        "Как собирается, используется, хранится и защищается business и personal information."
+      ],
+      [
+        "Политика возвратов",
+        "Как рассматриваются refunds для custom digital services, consulting, software work и project preparation."
+      ],
+      [
+        "Cookie Policy",
+        "Информация о website cookies, analytics, functionality и preference technologies."
+      ],
+      [
+        "Acceptable Use Policy",
+        "Стандарты responsible use для Asman AI systems, software, automation и AI-enabled services."
+      ],
+      [
+        "Payment Terms",
+        "Требования к оплате, advance invoicing, project activation, third-party costs и service fees."
+      ],
+      [
+        "Project Delivery Policy",
+        "Scope approval, delivery timelines, client responsibilities, revisions, delays и suspension rules."
+      ],
+      [
+        "Cancellation Policy",
+        "Как обрабатываются cancellations до начала работ, после старта и при client-caused delays."
+      ],
+      [
+        "Intellectual Property Policy",
+        "Ownership финальных deliverables, reusable frameworks, methods, proprietary tools и existing assets."
+      ]
+    ]
   }
 }
