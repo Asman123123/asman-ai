@@ -14,7 +14,7 @@ export function Footer() {
             <Image src="/brand/asman-ai-white.png" alt="Asman AI" fill sizes="220px" className="object-contain object-left" />
           </Link>
           <p className="max-w-md text-white/62">
-            Asman AI builds intelligent software, automation systems, and scalable digital solutions that help organizations grow more efficiently.
+            {t.footer.brandText}
           </p>
           <div className="mt-6 flex flex-wrap gap-2 text-xs font-black text-white/48">
             <span className="rounded-full border border-white/10 px-3 py-1">Global Delivery</span>
@@ -42,13 +42,13 @@ export function Footer() {
           <Link href="/blog">{t.resources.blog}</Link>
           <Link href="/documentation">{t.resources.docs}</Link>
           <Link href="/faqs">{t.resources.faqs}</Link>
-          <Link href="/terms-and-policies">Terms & Policies</Link>
+          <Link href="/terms-and-policies">{t.common.termsPolicies}</Link>
         </div>
         <div className="grid content-start gap-3 text-sm text-white/58">
-          <strong className="text-white">Contact</strong>
-          <a href="mailto:asman.usa88@gmail.com">asman.usa88@gmail.com</a>
-          <Link href="/contact">Request Proposal</Link>
-          <Link href="/contact">Book a Strategy Call</Link>
+          <strong className="text-white">{t.nav.contact}</strong>
+          <a href="mailto:hello@asmanai.com">hello@asmanai.com</a>
+          <Link href="/contact">{t.common.requestProposal}</Link>
+          <Link href="/contact">{t.common.bookStrategy}</Link>
         </div>
         <div>
           <strong className="text-white">{t.footer.newsletter}</strong>
@@ -61,7 +61,7 @@ export function Footer() {
       </div>
       <div className="mx-auto mt-12 flex max-w-7xl flex-col gap-3 border-t border-white/10 pt-6 text-xs text-white/38 md:flex-row md:items-center md:justify-between">
         <span>{t.footer.rights}</span>
-        <span>Asman AI is a brand operated by ASMAN LLC. All rights reserved.</span>
+        <span>{t.footer.legalNotice}</span>
       </div>
     </footer>
   );

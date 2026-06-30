@@ -92,6 +92,7 @@ export function WhyChoose() {
 }
 
 export function ServicesGrid({ compact = false }: { compact?: boolean }) {
+  const { t } = useLocale();
   return (
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
       {services.map((service, index) => {
@@ -114,7 +115,7 @@ export function ServicesGrid({ compact = false }: { compact?: boolean }) {
                   {service.features.map((feature) => <li key={feature} className="flex items-center gap-3"><Check className="h-4 w-4 text-aura/80" />{feature}</li>)}
                 </ul>
               )}
-              <Link href="/services" className="mt-8 inline-flex items-center gap-2 text-sm font-black text-white transition group-hover:text-aura">Learn More <ArrowRight size={15} /></Link>
+              <Link href="/services" className="mt-8 inline-flex items-center gap-2 text-sm font-black text-white transition group-hover:text-aura">{t.common.learnMore} <ArrowRight size={15} /></Link>
             </motion.article>
           </Reveal>
         );
@@ -225,6 +226,7 @@ export function ClientSuccessStories() {
 }
 
 export function ResourcesCenter() {
+  const { t } = useLocale();
   return (
     <section className="bg-[#080d15] px-5 py-28 lg:px-8">
       <div className="mx-auto max-w-7xl">
@@ -241,7 +243,7 @@ export function ResourcesCenter() {
                 <h3 className="mt-6 text-2xl font-black leading-tight text-white">{item.title}</h3>
                 <p className="mt-4 leading-7 text-white/54">{item.text}</p>
                 <span className="mt-8 inline-flex items-center gap-2 text-sm font-black text-white transition group-hover:text-aura">
-                  Read article <ArrowRight size={15} />
+                  {t.common.readArticle} <ArrowRight size={15} />
                 </span>
               </Link>
             </Reveal>
@@ -253,23 +255,24 @@ export function ResourcesCenter() {
 }
 
 export function PricingCards({ withComparison = false }: { withComparison?: boolean }) {
+  const { t } = useLocale();
   return (
     <>
       <div className="grid gap-5 lg:grid-cols-3">
         {plans.map((plan, index) => <Reveal key={plan.name} delay={index * 0.05}><motion.article whileHover={{ y: -6 }} className={cn("relative flex min-h-[34rem] flex-col overflow-hidden rounded-[1.75rem] border p-8 transition", plan.highlighted ? "border-white/20 bg-pearl text-ink shadow-card" : "border-white/10 bg-white/[0.035] text-white")}>
-          {plan.highlighted && <span className="mb-5 w-fit rounded-full bg-ink px-3 py-1 text-xs font-black uppercase tracking-[0.14em] text-white">Recommended</span>}
+          {plan.highlighted && <span className="mb-5 w-fit rounded-full bg-ink px-3 py-1 text-xs font-black uppercase tracking-[0.14em] text-white">{t.common.recommended}</span>}
           <h3 className={cn("text-3xl font-black", plan.highlighted ? "text-ink" : "text-white")}>{plan.name}</h3>
           <p className={cn("mt-4 min-h-14", plan.highlighted ? "text-ink/62" : "text-white/56")}>{plan.description}</p>
           <div className={cn("mt-7 font-metric text-5xl font-black", plan.highlighted ? "text-ink" : "text-white")}>{plan.price}</div>
           <div className="mt-7 grid grid-cols-2 gap-3 text-sm">
-            <div className={cn("rounded-2xl border p-4", plan.highlighted ? "border-ink/10 bg-ink/[0.035]" : "border-white/10 bg-ink/35")}><div className={plan.highlighted ? "text-ink/40" : "text-white/34"}>Best for</div><div className="mt-1 font-black">{plan.idealFor}</div></div>
-            <div className={cn("rounded-2xl border p-4", plan.highlighted ? "border-ink/10 bg-ink/[0.035]" : "border-white/10 bg-ink/35")}><div className={plan.highlighted ? "text-ink/40" : "text-white/34"}>Timeline</div><div className="mt-1 font-black">{plan.timeline}</div></div>
+            <div className={cn("rounded-2xl border p-4", plan.highlighted ? "border-ink/10 bg-ink/[0.035]" : "border-white/10 bg-ink/35")}><div className={plan.highlighted ? "text-ink/40" : "text-white/34"}>{t.common.bestFor}</div><div className="mt-1 font-black">{plan.idealFor}</div></div>
+            <div className={cn("rounded-2xl border p-4", plan.highlighted ? "border-ink/10 bg-ink/[0.035]" : "border-white/10 bg-ink/35")}><div className={plan.highlighted ? "text-ink/40" : "text-white/34"}>{t.common.timeline}</div><div className="mt-1 font-black">{plan.timeline}</div></div>
           </div>
           <ul className={cn("mt-8 grid gap-3 text-sm", plan.highlighted ? "text-ink/70" : "text-white/62")}>{plan.features.map((feature) => <li key={feature} className="flex items-center gap-3"><Check className={cn("h-4 w-4", plan.highlighted ? "text-ink" : "text-aura/80")} />{feature}</li>)}</ul>
-          <Link href="/contact" className={cn("mt-auto rounded-full px-5 py-3 text-center text-sm font-black transition", plan.highlighted ? "bg-ink text-white hover:bg-ink/85" : "border border-white/12 bg-white/[0.04] text-white hover:border-white/28")}>Request Proposal</Link>
+          <Link href="/contact" className={cn("mt-auto rounded-full px-5 py-3 text-center text-sm font-black transition", plan.highlighted ? "bg-ink text-white hover:bg-ink/85" : "border border-white/12 bg-white/[0.04] text-white hover:border-white/28")}>{t.common.requestProposal}</Link>
         </motion.article></Reveal>)}
       </div>
-      {withComparison && <Reveal className="mt-10 overflow-x-auto rounded-[1.75rem] border border-white/10 bg-white/[0.03]"><div className="grid min-w-[760px] grid-cols-4 border-b border-white/10 p-5 text-sm font-black text-white"><span>Capability</span><span>Starter</span><span>Growth</span><span>Enterprise</span></div>{comparisonRows.map((row) => <div key={row[0]} className="grid min-w-[760px] grid-cols-4 border-b border-white/5 p-5 text-sm text-white/58 last:border-0">{row.map((cell, index) => <span key={cell} className={index === 0 ? "font-black text-white" : ""}>{cell}</span>)}</div>)}</Reveal>}
+      {withComparison && <Reveal className="mt-10 overflow-x-auto rounded-[1.75rem] border border-white/10 bg-white/[0.03]"><div className="grid min-w-[760px] grid-cols-4 border-b border-white/10 p-5 text-sm font-black text-white"><span>{t.common.capability}</span><span>Starter</span><span>Growth</span><span>Enterprise</span></div>{comparisonRows.map((row) => <div key={row[0]} className="grid min-w-[760px] grid-cols-4 border-b border-white/5 p-5 text-sm text-white/58 last:border-0">{row.map((cell, index) => <span key={cell} className={index === 0 ? "font-black text-white" : ""}>{cell}</span>)}</div>)}</Reveal>}
     </>
   );
 }
@@ -304,19 +307,20 @@ export function CTA() {
 }
 
 export function EnterpriseCTA() {
+  const { t } = useLocale();
   return (
     <section className="bg-[#05070d] px-5 py-28 lg:px-8">
       <Reveal className="mx-auto max-w-7xl overflow-hidden rounded-[2rem] border border-white/10 bg-[linear-gradient(135deg,rgba(255,255,255,.08),rgba(255,255,255,.025))] p-10 md:p-16">
         <CircleDollarSign className="mb-8 h-9 w-9 text-aura/80" />
         <h2 className="max-w-3xl text-balance text-4xl font-black tracking-tight text-white md:text-6xl">
-          Ready to Discuss Your Next Technology Initiative?
+          {t.sections.ctaTitle}
         </h2>
         <p className="mt-6 max-w-2xl text-lg leading-8 text-white/60">
-          Talk with Asman AI about the automation, software, or SaaS system your organization needs next.
+          {t.sections.ctaText}
         </p>
         <div className="mt-9 flex flex-wrap gap-3">
-          <Link href="/contact" className="inline-flex rounded-full bg-white px-6 py-4 text-sm font-black text-ink transition hover:bg-aura">Request Proposal</Link>
-          <Link href="/contact" className="inline-flex rounded-full border border-white/12 bg-white/[0.04] px-6 py-4 text-sm font-black text-white transition hover:border-white/28">Book a Strategy Call</Link>
+          <Link href="/contact" className="inline-flex rounded-full bg-white px-6 py-4 text-sm font-black text-ink transition hover:bg-aura">{t.common.requestProposal}</Link>
+          <Link href="/contact" className="inline-flex rounded-full border border-white/12 bg-white/[0.04] px-6 py-4 text-sm font-black text-white transition hover:border-white/28">{t.common.bookStrategy}</Link>
         </div>
       </Reveal>
     </section>

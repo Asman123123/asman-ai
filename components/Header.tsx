@@ -64,7 +64,7 @@ export function Header() {
     [t.resources.blog, "/blog"],
     [t.resources.docs, "/documentation"],
     [t.resources.faqs, "/faqs"],
-    ["Terms & Policies", "/terms-and-policies"],
+    [t.common.termsPolicies, "/terms-and-policies"],
   ];
 
   useEffect(() => {
@@ -99,7 +99,7 @@ export function Header() {
         </div>
         <div className="hidden items-center gap-3 xl:flex">
           <LanguageSwitcher />
-          <Link href="/contact" className="rounded-full bg-white px-5 py-2.5 text-sm font-bold text-ink transition hover:bg-aura">Request Proposal</Link>
+          <Link href="/contact" className="rounded-full bg-white px-5 py-2.5 text-sm font-bold text-ink transition hover:bg-aura">{t.nav.book}</Link>
         </div>
         <div className="flex items-center gap-2 xl:hidden">
           <LanguageSwitcher />
@@ -126,7 +126,7 @@ export function Header() {
                 ))}
               </div>
             ))}
-            <Link href="/contact" onClick={() => setOpen(false)} className="rounded-full bg-cobalt px-5 py-3 text-center font-bold text-white">Request Proposal</Link>
+            <Link href="/contact" onClick={() => setOpen(false)} className="rounded-full bg-cobalt px-5 py-3 text-center font-bold text-white">{t.nav.book}</Link>
           </div>
         </motion.div>
       )}

@@ -7,7 +7,7 @@ import { LocaleProvider } from "@/components/i18n/LocaleProvider";
 export const metadata: Metadata = {
   metadataBase: new URL("https://asmanai.com"),
   title: { default: "Asman AI | AI Automation, Software Development, SaaS Solutions", template: "%s | Asman AI" },
-  description: "Asman AI builds AI automation, custom software, SaaS platforms, CRM automation, and enterprise software for modern organizations.",
+  description: "Asman AI helps businesses automate operations, build intelligent software, and launch scalable SaaS platforms.",
   keywords: ["AI Automation Company", "SaaS Development Company", "Custom Software Development", "CRM Automation", "Enterprise Software"],
   icons: { icon: "/icon.png", apple: "/apple-icon.png" },
   openGraph: {
@@ -33,7 +33,7 @@ const jsonLd = {
   name: "Asman AI",
   legalName: "ASMAN LLC",
   url: "https://asmanai.com",
-  email: "asman.usa88@gmail.com",
+  email: "hello@asmanai.com",
   makesOffer: ["AI Automation", "Custom Software Development", "SaaS Development", "CRM Automation", "Enterprise Software Development"],
 };
 

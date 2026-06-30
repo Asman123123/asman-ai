@@ -26,7 +26,7 @@ export async function POST(request: Request) {
 
   const formspreeEndpoint = process.env.FORMSPREE_ENDPOINT;
   const resendKey = process.env.RESEND_API_KEY;
-  const toEmail = process.env.CONTACT_TO_EMAIL || "asman.usa88@gmail.com";
+  const toEmail = process.env.CONTACT_TO_EMAIL || "hello@asmanai.com";
 
   if (formspreeEndpoint) {
     const result = await fetch(formspreeEndpoint, {
@@ -34,7 +34,7 @@ export async function POST(request: Request) {
       headers: { "Content-Type": "application/json", Accept: "application/json" },
       body: JSON.stringify(body),
     });
-    if (!result.ok) return NextResponse.json({ error: "Form delivery failed. Please email asman.usa88@gmail.com." }, { status: 502 });
+    if (!result.ok) return NextResponse.json({ error: "Form delivery failed. Please email hello@asmanai.com." }, { status: 502 });
     return NextResponse.json({ message: "Request received. Our team will review your request and respond with the next steps." });
   }
 
@@ -49,9 +49,9 @@ export async function POST(request: Request) {
         text: Object.entries(body).map(([key, value]) => `${key}: ${value}`).join("\n"),
       }),
     });
-    if (!result.ok) return NextResponse.json({ error: "Email delivery failed. Please email asman.usa88@gmail.com." }, { status: 502 });
+    if (!result.ok) return NextResponse.json({ error: "Email delivery failed. Please email hello@asmanai.com." }, { status: 502 });
     return NextResponse.json({ message: "Request received. Our team will review your request and respond with the next steps." });
   }
 
-  return NextResponse.json({ error: "We could not submit the request right now. Please email asman.usa88@gmail.com and our team will respond with the next steps." }, { status: 503 });
+  return NextResponse.json({ error: "We could not submit the request right now. Please email hello@asmanai.com and our team will respond with the next steps." }, { status: 503 });
 }

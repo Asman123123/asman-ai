@@ -1,12 +1,179 @@
 {
-  "nav": {"home":"Ana Sayfa","services":"Hizmetler","solutions":"Çözümler","caseStudies":"Vaka Çalışmaları","pricing":"Fiyatlandırma","about":"Hakkımızda","resources":"Kaynaklar","contact":"İletişim","book":"Teklif İste"},
-  "services": {"ai":"AI Otomasyonu","software":"Yazılım Geliştirme","saas":"SaaS Geliştirme","voice":"AI Ses Ajanları","crm":"CRM Otomasyonu","enterprise":"Kurumsal Çözümler"},
-  "solutions": {"realEstate":"Gayrimenkul","logistics":"Lojistik","healthcare":"Sağlık","finance":"Finans","ecommerce":"E-ticaret","professional":"Profesyonel Hizmetler"},
-  "resources": {"blog":"Blog","docs":"Dokümantasyon","faqs":"SSS","privacy":"Gizlilik Politikası","terms":"Şartlar","refund":"İade Politikası"},
-  "hero": {"badge":"AI destekli. İş odaklı. Geleceğe hazır.","headline":"Akıllı Yazılım. Gerçek İş Etkisi.","subheadline":"İşletmelerin operasyonları otomatikleştirmesine, güçlü yazılım kurmasına ve AI çözümleriyle ölçeklenmesine yardımcı oluyoruz.","primary":"Strateji Görüşmesi Al","secondary":"Hizmetleri İncele","panelEyebrow":"Canlı sistem haritası","panelTitle":"Otomasyon Kontrol Katmanı","cards":[["AI ajanları","Lead, destek, operasyon"],["Yazılım","Dashboard, portal, SaaS"],["Otomasyon","CRM, iş akışları, raporlama"]]},
-  "sections": {"whatEyebrow":"Ne Yapıyoruz","whatTitle":"Operasyonel büyüme için teknoloji çözümleri","whatText":"Asman AI güvenilir sistemlere ihtiyaç duyan ekipler için AI iş akışı otomasyonu, özel yazılım ve SaaS ürünleri tasarlar.","techEyebrow":"Teknoloji Stack","techTitle":"Güvendiğimiz teknolojilerle inşa ederiz.","techText":"Kanıtlanmış AI, cloud, ödeme, CRM ve iletişim platformlarıyla çalışırız.","processEyebrow":"Süreç","processTitle":"Basit. Şeffaf. Etkili.","processText":"Keşiften lansman ve desteğe kadar net bir teslim modeli.","pricingEyebrow":"Fiyatlandırma","pricingTitle":"Ciddi B2B uygulamaları için premium teknoloji paketleri","industriesEyebrow":"Çözümler","industriesTitle":"Yüksek değerli iş akışları için","casesEyebrow":"Vaka Çalışmaları","casesTitle":"Ölçülebilir iş sonuçları","testimonialsEyebrow":"Referanslar","testimonialsTitle":"Daha iyi sistemler kuran ekiplerin tercihi","ctaTitle":"Daha akıllı sistemler kurmaya hazır mısınız?","ctaText":"Strateji görüşmesi alın ve işinizi ileri taşıyacak otomasyon, yazılım veya SaaS sistemini planlayın.","ctaButton":"Ücretsiz Danışmanlık"},
-  "footer": {"brandText":"Asman AI gerçek iş büyümesi sağlayan akıllı yazılım çözümleri geliştirir.","services":"Hizmetler","company":"Şirket","resources":"Kaynaklar","newsletter":"Bülten","newsletterText":"AI otomasyonu, yazılım sistemleri ve ölçeklenebilir operasyonlar üzerine içgörüler.","emailPlaceholder":"İş e-postası","subscribe":"Abone Ol","rights":"© 2026 Asman AI. Tüm hakları saklıdır."},
-  "contact": {"title":"Kurmak istediğiniz sistemi anlatın","text":"Ekibimiz talebinizi inceleyip sonraki adımlarla geri dönüş yapacaktır.","business":"İş İletişimi","formNote":"Ekibimiz talebinizi inceleyip sonraki adımlarla geri dönüş yapacaktır.","submit":"Teklif İste","book":"Strateji Görüşmesi"},
-  "legal": {"privacy":"Gizlilik Politikası","terms":"Şartlar ve Koşullar","refund":"İade Politikası","cookie":"Çerez Politikası","acceptable":"Kabul Edilebilir Kullanım Politikası"},
-  "resourcePages": {"blogTitle":"Blog","blogText":"AI otomasyonu, SaaS sistemleri ve süreç iyileştirme üzerine pratik notlar.","docsTitle":"Dokümantasyon","docsText":"Asman AI projeleri için uygulama notları, kapsamlar ve entegrasyon rehberleri.","faqsTitle":"SSS","faqsText":"Fiyatlandırma, zaman çizelgesi, iletişim kurulumu ve teslim süreci hakkında cevaplar."}
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "solutions": "Çözümler",
+    "caseStudies": "Vaka Çalışmaları",
+    "pricing": "Fiyatlandırma",
+    "about": "Hakkımızda",
+    "resources": "Kaynaklar",
+    "contact": "İletişim",
+    "book": "Teklif İste"
+  },
+  "services": {
+    "ai": "AI Otomasyonu",
+    "software": "Yazılım Geliştirme",
+    "saas": "SaaS Geliştirme",
+    "voice": "AI Ses Ajanları",
+    "crm": "CRM Otomasyonu",
+    "enterprise": "Kurumsal Çözümler"
+  },
+  "solutions": {
+    "realEstate": "Gayrimenkul",
+    "logistics": "Lojistik",
+    "healthcare": "Sağlık",
+    "finance": "Finans",
+    "ecommerce": "E-ticaret",
+    "professional": "Profesyonel Hizmetler"
+  },
+  "resources": {
+    "blog": "Blog",
+    "docs": "Dokümantasyon",
+    "faqs": "SSS",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Şartlar",
+    "refund": "İade Politikası"
+  },
+  "hero": {
+    "badge": "AI destekli. İş odaklı. Geleceğe hazır.",
+    "headline": "Akıllı Yazılım. Gerçek İş Etkisi.",
+    "subheadline": "İşletmelerin operasyonları otomatikleştirmesine, güçlü yazılım kurmasına ve AI çözümleriyle ölçeklenmesine yardımcı oluyoruz.",
+    "primary": "Strateji Görüşmesi Al",
+    "secondary": "Hizmetleri İncele",
+    "panelEyebrow": "Canlı sistem haritası",
+    "panelTitle": "Otomasyon Kontrol Katmanı",
+    "cards": [
+      [
+        "AI ajanları",
+        "Lead, destek, operasyon"
+      ],
+      [
+        "Yazılım",
+        "Dashboard, portal, SaaS"
+      ],
+      [
+        "Otomasyon",
+        "CRM, iş akışları, raporlama"
+      ]
+    ]
+  },
+  "sections": {
+    "whatEyebrow": "Ne Yapıyoruz",
+    "whatTitle": "Operasyonel büyüme için teknoloji çözümleri",
+    "whatText": "Asman AI güvenilir sistemlere ihtiyaç duyan ekipler için AI iş akışı otomasyonu, özel yazılım ve SaaS ürünleri tasarlar.",
+    "techEyebrow": "Teknoloji Stack",
+    "techTitle": "Güvendiğimiz teknolojilerle inşa ederiz.",
+    "techText": "Kanıtlanmış AI, cloud, ödeme, CRM ve iletişim platformlarıyla çalışırız.",
+    "processEyebrow": "Süreç",
+    "processTitle": "Basit. Şeffaf. Etkili.",
+    "processText": "Keşiften lansman ve desteğe kadar net bir teslim modeli.",
+    "pricingEyebrow": "Fiyatlandırma",
+    "pricingTitle": "Ciddi B2B uygulamaları için premium teknoloji paketleri",
+    "industriesEyebrow": "Çözümler",
+    "industriesTitle": "Yüksek değerli iş akışları için",
+    "casesEyebrow": "Vaka Çalışmaları",
+    "casesTitle": "Ölçülebilir iş sonuçları",
+    "testimonialsEyebrow": "Referanslar",
+    "testimonialsTitle": "Daha iyi sistemler kuran ekiplerin tercihi",
+    "ctaTitle": "Daha akıllı sistemler kurmaya hazır mısınız?",
+    "ctaText": "Strateji görüşmesi alın ve işinizi ileri taşıyacak otomasyon, yazılım veya SaaS sistemini planlayın.",
+    "ctaButton": "Ücretsiz Danışmanlık"
+  },
+  "footer": {
+    "brandText": "Asman AI gerçek iş büyümesi sağlayan akıllı yazılım çözümleri geliştirir.",
+    "services": "Hizmetler",
+    "company": "Şirket",
+    "resources": "Kaynaklar",
+    "newsletter": "Bülten",
+    "newsletterText": "AI otomasyonu, yazılım sistemleri ve ölçeklenebilir operasyonlar üzerine içgörüler.",
+    "emailPlaceholder": "İş e-postası",
+    "subscribe": "Abone Ol",
+    "rights": "© 2026 Asman AI. Tüm hakları saklıdır.",
+    "legalNotice": "Asman AI, ASMAN LLC tarafından işletilen bir markadır."
+  },
+  "contact": {
+    "title": "Kurmak istediğiniz sistemi anlatın",
+    "text": "Ekibimiz talebinizi inceleyip sonraki adımlarla geri dönüş yapacaktır.",
+    "business": "İş İletişimi",
+    "formNote": "Ekibimiz talebinizi inceleyip sonraki adımlarla geri dönüş yapacaktır.",
+    "submit": "Teklif İste",
+    "book": "Strateji Görüşmesi",
+    "brandLine": "AI Otomasyonu • Yazılım Geliştirme • SaaS Çözümleri",
+    "nextEyebrow": "Süreç",
+    "nextTitle": "Sonra Ne Olur?",
+    "nextText": "Yapılandırılmış intake görüşmeyi odaklı tutar ve yararlı bir teklif hazırlamamıza yardımcı olur.",
+    "form": {
+      "fullName": "Ad Soyad",
+      "companyName": "Şirket Adı",
+      "businessEmail": "İş E-postası",
+      "phoneNumber": "Telefon Numarası",
+      "serviceNeeded": "Gerekli Hizmet",
+      "estimatedBudget": "Tahmini Bütçe",
+      "projectDescription": "Proje Açıklaması",
+      "placeholder": "Workflow, ürün veya otomasyon hedefinizi anlatın.",
+      "consentPrefix": "Bu formu göndererek",
+      "and": "ve",
+      "success": "Talebiniz alındı. Ekibimiz inceleyip sonraki adımlarla geri dönecektir.",
+      "error": "Bir şeyler ters gitti.",
+      "failed": "Gönderim başarısız"
+    },
+    "nextSteps": [
+      [
+        "01",
+        "Talebinizi Gönderin",
+        "Kurmak istediğiniz workflow, ürün veya sistemi paylaşın."
+      ],
+      [
+        "02",
+        "Discovery Görüşmesi",
+        "Hedefleri, kısıtları, mevcut araçları ve karar kriterlerini netleştiririz."
+      ],
+      [
+        "03",
+        "Teknik Değerlendirme",
+        "Mimari, entegrasyonlar, veri akışı ve teslim riskleri incelenir."
+      ],
+      [
+        "04",
+        "Teklif & Zaman Planı",
+        "Net kapsam, uygulama planı, timeline ve yatırım aralığı alırsınız."
+      ],
+      [
+        "05",
+        "Proje Başlangıcı",
+        "Onay ve ödeme sonrası onboarding başlar ve teslim planı yürürlüğe girer."
+      ]
+    ]
+  },
+  "legal": {
+    "privacy": "Gizlilik Politikası",
+    "terms": "Şartlar ve Koşullar",
+    "refund": "İade Politikası",
+    "cookie": "Çerez Politikası",
+    "acceptable": "Kabul Edilebilir Kullanım Politikası"
+  },
+  "resourcePages": {
+    "blogTitle": "Blog",
+    "blogText": "AI otomasyonu, SaaS sistemleri ve süreç iyileştirme üzerine pratik notlar.",
+    "docsTitle": "Dokümantasyon",
+    "docsText": "Asman AI projeleri için uygulama notları, kapsamlar ve entegrasyon rehberleri.",
+    "faqsTitle": "SSS",
+    "faqsText": "Fiyatlandırma, zaman çizelgesi, iletişim kurulumu ve teslim süreci hakkında cevaplar."
+  },
+  "common": {
+    "select": "Seçenek seçin",
+    "sending": "Gönderiliyor...",
+    "termsPolicies": "Şartlar ve Politikalar",
+    "requestProposal": "Teklif İste",
+    "bookStrategy": "Strateji Görüşmesi",
+    "mapped": "Haritalandı",
+    "throughput": "Akış",
+    "last30Days": "Son 30 gün",
+    "learnMore": "Daha Fazla",
+    "readArticle": "Oku",
+    "recommended": "Önerilen",
+    "bestFor": "En uygun",
+    "timeline": "Süre",
+    "capability": "Kapasite"
+  }
 }

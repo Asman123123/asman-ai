@@ -1,12 +1,179 @@
 {
-  "nav": {"home":"Baş sahypa","services":"Hyzmatlar","solutions":"Çözgütler","caseStudies":"Mysallar","pricing":"Bahalar","about":"Biz barada","resources":"Resurslar","contact":"Habarlaşmak","book":"Teklip sora"},
-  "services": {"ai":"AI awtomatizasiýa","software":"Programma üpjünçiligi","saas":"SaaS işläp düzmek","voice":"AI ses agentleri","crm":"CRM awtomatizasiýa","enterprise":"Enterprise çözgütler"},
-  "solutions": {"realEstate":"Gozgalmaýan emläk","logistics":"Logistika","healthcare":"Saglygy goraýyş","finance":"Maliýe","ecommerce":"E-commerce","professional":"Hünär hyzmatlary"},
-  "resources": {"blog":"Blog","docs":"Dokumentasiýa","faqs":"Sorag-jogap","privacy":"Gizlinlik syýasaty","terms":"Şertler","refund":"Gaýtaryş syýasaty"},
-  "hero": {"badge":"AI bilen. Biznes üçin. Geljege taýýar.","headline":"Akylly programma. Hakyky biznes täsiri.","subheadline":"Biz bizneslere amallary awtomatlaşdyrmaga, güýçli programma gurmaga we AI çözgütleri bilen ulalmaga kömek edýäris.","primary":"Strategiýa jaňy","secondary":"Hyzmatlara seret","panelEyebrow":"Janly ulgam kartasy","panelTitle":"Awtomatizasiýa dolandyryş gatlagy","cards":[["AI agentler","Lidler, goldaw, operasiýa"],["Programma","Dashboard, portal, SaaS"],["Awtomatizasiýa","CRM, iş akymlary, hasabat"]]},
-  "sections": {"whatEyebrow":"Näme edýäris","whatTitle":"Operasion ösüş üçin tehnologiýa çözgütleri","whatText":"Asman AI ygtybarly ulgamlara mätäç toparlar üçin AI iş akymy awtomatizasiýasyny, ýörite programma üpjünçiligini we SaaS önümlerini dizaýn edýär.","techEyebrow":"Tehnologiýa","techTitle":"Işleýän ynamdar tehnologiýalarymyz.","techText":"AI, cloud, töleg, CRM we aragatnaşyk platformalary bilen gurýarys.","processEyebrow":"Proses","processTitle":"Ýönekeý. Açyk. Netijeli.","processText":"Discovery-den launch we support-a çenli düşnükli model.","pricingEyebrow":"Bahalar","pricingTitle":"Çynlakaý B2B ýerine ýetiriş üçin premium paketler","industriesEyebrow":"Çözgütler","industriesTitle":"Gymmatly iş akymlary üçin","casesEyebrow":"Mysallar","casesTitle":"Ölçenip bolýan biznes netijeleri","testimonialsEyebrow":"Synlar","testimonialsTitle":"Has gowy ulgam gurýan toparlaryň ynamy","ctaTitle":"Has akylly ulgam gurmaga taýýarmy?","ctaText":"Strategiýa jaňyny belläň we biznesiňizi öňe sürjek awtomatizasiýa, programma ýa-da SaaS ulgamyny meýilleşdiriň.","ctaButton":"Mugt maslahat"},
-  "footer": {"brandText":"Asman AI hakyky biznes ösüşini üpjün edýän akylly programma çözgütlerini gurýar.","services":"Hyzmatlar","company":"Kompaniýa","resources":"Resurslar","newsletter":"Täzelikler","newsletterText":"AI awtomatizasiýa, programma ulgamlary we ulalýan operasiýalar barada pikirler.","emailPlaceholder":"Biznes email","subscribe":"Ýazylmak","rights":"© 2026 Asman AI. Ähli hukuklar goralan."},
-  "contact": {"title":"Gurmak isleýän ulgamyňyzy aýdyň","text":"Toparymyz talabyňyzy gözden geçirip, indiki ädimler bilen habar berer.","business":"Biznes kontakt","formNote":"Toparymyz talabyňyzy gözden geçirip, indiki ädimler bilen habar berer.","submit":"Teklip sora","book":"Strategiýa jaňy"},
-  "legal": {"privacy":"Gizlinlik syýasaty","terms":"Şertler","refund":"Gaýtaryş syýasaty","cookie":"Cookie syýasaty","acceptable":"Kabul ederlikli ulanmak syýasaty"},
-  "resourcePages": {"blogTitle":"Blog","blogText":"AI awtomatizasiýa, SaaS ulgamlary we biznes proseslerini gowulandyrmak barada praktiki ýazgylar.","docsTitle":"Dokumentasiýa","docsText":"Asman AI taslamalary üçin ýerine ýetiriş, çäkler we integrasiýa maglumatlary.","faqsTitle":"Sorag-jogap","faqsText":"Bahalar, wagt, kontakt sazlamasy we delivery prosesi barada jogaplar."}
+  "nav": {
+    "home": "Baş sahypa",
+    "services": "Hyzmatlar",
+    "solutions": "Çözgütler",
+    "caseStudies": "Mysallar",
+    "pricing": "Bahalar",
+    "about": "Biz barada",
+    "resources": "Resurslar",
+    "contact": "Habarlaşmak",
+    "book": "Teklip sora"
+  },
+  "services": {
+    "ai": "AI awtomatizasiýa",
+    "software": "Programma üpjünçiligi",
+    "saas": "SaaS işläp düzmek",
+    "voice": "AI ses agentleri",
+    "crm": "CRM awtomatizasiýa",
+    "enterprise": "Enterprise çözgütler"
+  },
+  "solutions": {
+    "realEstate": "Gozgalmaýan emläk",
+    "logistics": "Logistika",
+    "healthcare": "Saglygy goraýyş",
+    "finance": "Maliýe",
+    "ecommerce": "E-commerce",
+    "professional": "Hünär hyzmatlary"
+  },
+  "resources": {
+    "blog": "Blog",
+    "docs": "Dokumentasiýa",
+    "faqs": "Sorag-jogap",
+    "privacy": "Gizlinlik syýasaty",
+    "terms": "Şertler",
+    "refund": "Gaýtaryş syýasaty"
+  },
+  "hero": {
+    "badge": "AI bilen. Biznes üçin. Geljege taýýar.",
+    "headline": "Akylly programma. Hakyky biznes täsiri.",
+    "subheadline": "Biz bizneslere amallary awtomatlaşdyrmaga, güýçli programma gurmaga we AI çözgütleri bilen ulalmaga kömek edýäris.",
+    "primary": "Strategiýa jaňy",
+    "secondary": "Hyzmatlara seret",
+    "panelEyebrow": "Janly ulgam kartasy",
+    "panelTitle": "Awtomatizasiýa dolandyryş gatlagy",
+    "cards": [
+      [
+        "AI agentler",
+        "Lidler, goldaw, operasiýa"
+      ],
+      [
+        "Programma",
+        "Dashboard, portal, SaaS"
+      ],
+      [
+        "Awtomatizasiýa",
+        "CRM, iş akymlary, hasabat"
+      ]
+    ]
+  },
+  "sections": {
+    "whatEyebrow": "Näme edýäris",
+    "whatTitle": "Operasion ösüş üçin tehnologiýa çözgütleri",
+    "whatText": "Asman AI ygtybarly ulgamlara mätäç toparlar üçin AI iş akymy awtomatizasiýasyny, ýörite programma üpjünçiligini we SaaS önümlerini dizaýn edýär.",
+    "techEyebrow": "Tehnologiýa",
+    "techTitle": "Işleýän ynamdar tehnologiýalarymyz.",
+    "techText": "AI, cloud, töleg, CRM we aragatnaşyk platformalary bilen gurýarys.",
+    "processEyebrow": "Proses",
+    "processTitle": "Ýönekeý. Açyk. Netijeli.",
+    "processText": "Discovery-den launch we support-a çenli düşnükli model.",
+    "pricingEyebrow": "Bahalar",
+    "pricingTitle": "Çynlakaý B2B ýerine ýetiriş üçin premium paketler",
+    "industriesEyebrow": "Çözgütler",
+    "industriesTitle": "Gymmatly iş akymlary üçin",
+    "casesEyebrow": "Mysallar",
+    "casesTitle": "Ölçenip bolýan biznes netijeleri",
+    "testimonialsEyebrow": "Synlar",
+    "testimonialsTitle": "Has gowy ulgam gurýan toparlaryň ynamy",
+    "ctaTitle": "Has akylly ulgam gurmaga taýýarmy?",
+    "ctaText": "Strategiýa jaňyny belläň we biznesiňizi öňe sürjek awtomatizasiýa, programma ýa-da SaaS ulgamyny meýilleşdiriň.",
+    "ctaButton": "Mugt maslahat"
+  },
+  "footer": {
+    "brandText": "Asman AI hakyky biznes ösüşini üpjün edýän akylly programma çözgütlerini gurýar.",
+    "services": "Hyzmatlar",
+    "company": "Kompaniýa",
+    "resources": "Resurslar",
+    "newsletter": "Täzelikler",
+    "newsletterText": "AI awtomatizasiýa, programma ulgamlary we ulalýan operasiýalar barada pikirler.",
+    "emailPlaceholder": "Biznes email",
+    "subscribe": "Ýazylmak",
+    "rights": "© 2026 Asman AI. Ähli hukuklar goralan.",
+    "legalNotice": "Asman AI ASMAN LLC tarapyndan dolandyrylýan brenddir."
+  },
+  "contact": {
+    "title": "Gurmak isleýän ulgamyňyzy aýdyň",
+    "text": "Toparymyz talabyňyzy gözden geçirip, indiki ädimler bilen habar berer.",
+    "business": "Biznes kontakt",
+    "formNote": "Toparymyz talabyňyzy gözden geçirip, indiki ädimler bilen habar berer.",
+    "submit": "Teklip sora",
+    "book": "Strategiýa jaňy",
+    "brandLine": "AI awtomatizasiýa • Programma üpjünçiligi • SaaS çözgütleri",
+    "nextEyebrow": "Proses",
+    "nextTitle": "Soňra näme bolýar?",
+    "nextText": "Düzgünli intake gepleşigi anyk saklaýar we peýdaly teklip taýýarlamaga kömek edýär.",
+    "form": {
+      "fullName": "Doly ady",
+      "companyName": "Kompaniýa ady",
+      "businessEmail": "Biznes email",
+      "phoneNumber": "Telefon belgisi",
+      "serviceNeeded": "Gerek hyzmat",
+      "estimatedBudget": "Takmynan býujet",
+      "projectDescription": "Taslama beýany",
+      "placeholder": "Iş akymy, önüm ýa-da awtomatizasiýa maksadyňyzy aýdyň.",
+      "consentPrefix": "Bu formany ugratmak bilen siz",
+      "and": "we",
+      "success": "Talabyňyz alyndy. Toparymyz gözden geçirip, indiki ädimler bilen habar berer.",
+      "error": "Bir zat nädogry boldy.",
+      "failed": "Ugratmak başa barmady"
+    },
+    "nextSteps": [
+      [
+        "01",
+        "Talabyňyzy iberiň",
+        "Gurmak isleýän workflow, önüm ýa-da ulgamyňyzy paýlaşyň."
+      ],
+      [
+        "02",
+        "Discovery jaňy",
+        "Maksatlar, çäklendirmeler, häzirki gurallar we karar ölçegleri anyklanýar."
+      ],
+      [
+        "03",
+        "Tehniki baha",
+        "Arhitektura, integrasiýalar, data flow we delivery riskleri gözden geçirilýär."
+      ],
+      [
+        "04",
+        "Teklip we wagt",
+        "Scope, ýerine ýetiriş meýilnamasy, timeline we býujet aralygy berilýär."
+      ],
+      [
+        "05",
+        "Taslama başlangyjy",
+        "Tassyklama we tölegden soň onboarding başlaýar."
+      ]
+    ]
+  },
+  "legal": {
+    "privacy": "Gizlinlik syýasaty",
+    "terms": "Şertler",
+    "refund": "Gaýtaryş syýasaty",
+    "cookie": "Cookie syýasaty",
+    "acceptable": "Kabul ederlikli ulanmak syýasaty"
+  },
+  "resourcePages": {
+    "blogTitle": "Blog",
+    "blogText": "AI awtomatizasiýa, SaaS ulgamlary we biznes proseslerini gowulandyrmak barada praktiki ýazgylar.",
+    "docsTitle": "Dokumentasiýa",
+    "docsText": "Asman AI taslamalary üçin ýerine ýetiriş, çäkler we integrasiýa maglumatlary.",
+    "faqsTitle": "Sorag-jogap",
+    "faqsText": "Bahalar, wagt, kontakt sazlamasy we delivery prosesi barada jogaplar."
+  },
+  "common": {
+    "select": "Saýlaň",
+    "sending": "Ugradylýar...",
+    "termsPolicies": "Şertler we syýasatlar",
+    "requestProposal": "Teklip sora",
+    "bookStrategy": "Strategiýa jaňy",
+    "mapped": "Kartalaşdy",
+    "throughput": "Akym",
+    "last30Days": "Soňky 30 gün",
+    "learnMore": "Giňişleýin",
+    "readArticle": "Oka",
+    "recommended": "Maslahat berilýär",
+    "bestFor": "Iň laýyk",
+    "timeline": "Wagt",
+    "capability": "Mümkinçilik"
+  }
 }

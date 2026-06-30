@@ -102,32 +102,32 @@ export function Hero() {
         mouseX.set((event.clientX - rect.left) / rect.width - 0.5);
         mouseY.set((event.clientY - rect.top) / rect.height - 0.5);
       }}
-      className="relative min-h-screen overflow-hidden bg-mesh px-5 pt-32 text-white lg:px-8"
+      className="relative min-h-[92svh] overflow-hidden bg-mesh px-5 pt-28 text-white md:pt-32 lg:px-8"
     >
-      <canvas ref={canvasRef} className="absolute inset-0 h-full w-full opacity-55" />
+      <canvas ref={canvasRef} className="absolute inset-0 h-full w-full opacity-35 md:opacity-45 lg:opacity-50" />
       <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(3,5,10,.98),rgba(3,5,10,.78)_47%,rgba(3,5,10,.35))]" />
       <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-ink to-transparent" />
 
-      <div className="relative z-10 mx-auto grid min-h-[calc(100vh-8rem)] max-w-7xl items-center gap-12 pb-14 lg:grid-cols-[1.02fr_.98fr]">
+      <div className="relative z-10 mx-auto grid min-h-[calc(92svh-7rem)] max-w-7xl items-center gap-10 pb-12 lg:grid-cols-[1.05fr_.95fr]">
         <div className="max-w-4xl">
-          <div className="hero-stagger mb-7 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.035] px-4 py-2 text-sm font-semibold text-aura/88 backdrop-blur-xl">
+          <div className="hero-stagger mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.035] px-4 py-2 text-sm font-semibold text-aura/88 backdrop-blur-xl">
             <Sparkles size={16} /> {t.hero.badge}
           </div>
-          <h1 className="hero-stagger max-w-4xl text-balance text-5xl font-black leading-[.93] tracking-tight md:text-7xl lg:text-8xl">
+          <h1 className="hero-stagger max-w-4xl text-balance text-5xl font-black leading-[.96] tracking-tight md:text-7xl xl:text-8xl">
             {t.hero.headline}
           </h1>
-          <p className="hero-stagger mt-8 max-w-2xl text-lg leading-8 text-white/68 md:text-xl">
+          <p className="hero-stagger mt-6 max-w-2xl text-lg leading-8 text-white/68 md:text-xl">
             {t.hero.subheadline}
           </p>
-          <div className="hero-stagger mt-10 flex flex-wrap gap-4">
-            <Link href="/contact" className="group rounded-full bg-white px-6 py-4 text-sm font-black text-ink transition hover:bg-aura">
+          <div className="hero-stagger mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <Link href="/contact" className="group inline-flex min-h-12 items-center justify-center rounded-full bg-white px-6 py-4 text-sm font-black text-ink transition hover:bg-aura">
               {t.hero.primary} <ArrowRight className="ml-2 inline h-4 w-4 transition group-hover:translate-x-1" />
             </Link>
-            <Link href="/contact" className="rounded-full border border-white/14 bg-white/[0.05] px-6 py-4 text-sm font-black text-white backdrop-blur-xl transition hover:border-cobalt/70 hover:bg-cobalt/10">
+            <Link href="/contact" className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/14 bg-white/[0.05] px-6 py-4 text-sm font-black text-white backdrop-blur-xl transition hover:border-cobalt/70 hover:bg-cobalt/10">
               {t.hero.secondary}
             </Link>
           </div>
-          <div className="hero-stagger mt-12 grid gap-3 sm:grid-cols-3">
+          <div className="hero-stagger mt-8 grid gap-3 sm:grid-cols-3">
             {t.hero.cards.map(([title, text]) => (
               <div key={title} className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 backdrop-blur-xl">
                 <div className="text-sm font-black text-white">{title}</div>
@@ -145,7 +145,7 @@ export function Hero() {
                   <div className="text-xs font-black uppercase tracking-[0.2em] text-aura">{t.hero.panelEyebrow}</div>
                   <div className="mt-1 text-2xl font-black">{t.hero.panelTitle}</div>
                 </div>
-                <div className="rounded-full border border-white/10 bg-white/[0.035] px-3 py-1 text-xs font-black text-white/64">Mapped</div>
+                <div className="rounded-full border border-white/10 bg-white/[0.035] px-3 py-1 text-xs font-black text-white/64">{t.common.mapped}</div>
               </div>
 
               <div className="mt-6 grid gap-4">
@@ -174,7 +174,7 @@ export function Hero() {
 
               <div className="mt-6 rounded-2xl border border-white/10 bg-white/[0.025] p-5">
                 <div className="mb-4 flex items-center justify-between text-xs font-black uppercase tracking-[0.18em] text-white/42">
-                  <span>Throughput</span><span>Last 30 days</span>
+                  <span>{t.common.throughput}</span><span>{t.common.last30Days}</span>
                 </div>
                 <div className="flex h-28 items-end gap-2">
                   {[28, 44, 39, 62, 58, 76, 86, 78, 92].map((height, index) => (

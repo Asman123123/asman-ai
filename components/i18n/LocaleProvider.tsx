@@ -29,7 +29,10 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const saved = window.localStorage.getItem("asman-language") as Language | null;
-    if (saved && saved in dictionaries) setLangState(saved);
+    if (saved && saved in dictionaries) {
+      setLangState(saved);
+      document.documentElement.lang = saved;
+    }
   }, []);
 
   const setLang = (next: Language) => {
