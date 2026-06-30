@@ -1,6 +1,6 @@
-﻿# ASMAN TECH Premium Website
+# Asman AI Premium Website
 
-A premium enterprise-grade ASMAN TECH website built with Next.js 15, React, TypeScript, Tailwind CSS, Framer Motion, GSAP, Three.js, Lucide Icons, and a lightweight local i18n layer.
+A premium enterprise-grade Asman AI website built with Next.js 15, React, TypeScript, Tailwind CSS, Framer Motion, GSAP, Three.js, Lucide Icons, and a lightweight local i18n layer.
 
 ## Latest conversion and trust pass
 
@@ -8,7 +8,7 @@ A premium enterprise-grade ASMAN TECH website built with Next.js 15, React, Type
 - Removed fake-looking numeric proof stats and replaced them with trust indicators: Enterprise Solutions, Global Delivery, Multi-Industry Expertise, Long-Term Support.
 - Replaced generic testimonials with Client Success Stories organized by Industry, Challenge, Solution, Outcome, and KPI visualization.
 - Updated Technology section wording to “Technologies We Work With” to avoid implying vendor affiliation.
-- Added Why Businesses Choose ASMAN TECH trust section.
+- Added Why Businesses Choose Asman AI trust section.
 - Added Resources Center with article cards for AI Automation, Software Development, SaaS Strategy, CRM Systems, and Digital Transformation.
 - Added enterprise CTA before footer: “Ready to Discuss Your Next Technology Initiative?” with Request Proposal and Book a Strategy Call actions.
 - Simplified the desktop and mobile navigation to Home, Services, Solutions, Case Studies, About, and Resources.
@@ -16,7 +16,7 @@ A premium enterprise-grade ASMAN TECH website built with Next.js 15, React, Type
 - Added a premium “What Happens Next?” timeline to the Contact page.
 - Added `sitemap.xml`, `robots.txt`, and a custom 404 page for launch readiness.
 - Redesigned footer into Brand, Services, Company, Resources, Contact, and Newsletter sections.
-- Added the required small legal footer notice: “ASMAN TECH is a brand operated by ASMAN LLC. All rights reserved.”
+- Added the required small legal footer notice: “Asman AI is a brand operated by ASMAN LLC. All rights reserved.”
 - Added Organization, FAQ, and Blog schema JSON-LD for SEO authority.
 - Removed artificial hero metrics and replaced them with status-based labels.
 - Updated hero headline and subheadline to: “Build Smarter Systems. Scale Faster.”
@@ -60,7 +60,7 @@ Optional booking link:
 
 - `NEXT_PUBLIC_CALENDLY_URL`
 
-Without delivery credentials, the API returns a professional fallback message directing the visitor to email ASMAN TECH.
+Without delivery credentials, the API returns a professional fallback message directing the visitor to email Asman AI.
 
 ## Pages
 

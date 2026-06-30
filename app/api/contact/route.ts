@@ -1,4 +1,4 @@
-﻿import { NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 
 const required = ["fullName", "companyName", "email", "service", "budget", "message"];
 
@@ -43,9 +43,9 @@ export async function POST(request: Request) {
       method: "POST",
       headers: { Authorization: `Bearer ${resendKey}`, "Content-Type": "application/json" },
       body: JSON.stringify({
-        from: process.env.CONTACT_FROM_EMAIL || "ASMAN TECH <onboarding@resend.dev>",
+        from: process.env.CONTACT_FROM_EMAIL || "Asman AI <onboarding@resend.dev>",
         to: [toEmail],
-        subject: `New ASMAN TECH request from ${body.companyName}`,
+        subject: `New Asman AI request from ${body.companyName}`,
         text: Object.entries(body).map(([key, value]) => `${key}: ${value}`).join("\n"),
       }),
     });

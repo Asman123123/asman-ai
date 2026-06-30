@@ -4,7 +4,7 @@ import { Ban, Cookie, CreditCard, FileCheck2, FileText, LockKeyhole, RefreshCcw,
 
 export const metadata: Metadata = {
   title: "Terms & Policies",
-  description: "Important legal information regarding ASMAN TECH services, payments, delivery, privacy, refunds, and acceptable use.",
+  description: "Important legal information regarding Asman AI services, payments, delivery, privacy, refunds, and acceptable use.",
 };
 
 const policyCards = [
@@ -12,7 +12,7 @@ const policyCards = [
     title: "Terms & Conditions",
     href: "/terms",
     icon: Scale,
-    text: "Service terms covering requests, proposals, purchases, project agreements, and use of ASMAN TECH services.",
+    text: "Service terms covering requests, proposals, purchases, project agreements, and use of Asman AI services.",
   },
   {
     title: "Privacy Policy",
@@ -36,7 +36,7 @@ const policyCards = [
     title: "Acceptable Use Policy",
     href: "/acceptable-use-policy",
     icon: ShieldCheck,
-    text: "Responsible-use standards for ASMAN TECH systems, software, automation, and AI-enabled services.",
+    text: "Responsible-use standards for Asman AI systems, software, automation, and AI-enabled services.",
   },
   {
     title: "Payment Terms",
@@ -73,7 +73,7 @@ export default function TermsAndPoliciesPage() {
             <p className="mb-5 text-xs font-black uppercase tracking-[0.24em] text-aura">Legal</p>
             <h1 className="text-balance text-5xl font-black leading-[1.02] tracking-tight md:text-7xl">Terms & Policies</h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-white/58">
-              Important legal information regarding ASMAN TECH services, payments, delivery, privacy, refunds, and acceptable use.
+              Important legal information regarding Asman AI services, payments, delivery, privacy, refunds, and acceptable use.
             </p>
           </div>
 
@@ -100,7 +100,7 @@ export default function TermsAndPoliciesPage() {
           </div>
 
           <div className="mt-8 rounded-[1.5rem] border border-white/10 bg-white/[0.035] p-6 text-sm leading-7 text-white/52">
-            ASMAN TECH is a brand operated by ASMAN LLC. These policies should be read together with any accepted proposal, invoice, statement of work, or service agreement.
+            Asman AI is a brand operated by ASMAN LLC. These policies should be read together with any accepted proposal, invoice, statement of work, or service agreement.
           </div>
         </div>
       </section>

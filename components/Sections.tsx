@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -69,7 +69,7 @@ export function WhyChoose() {
       <div className="mx-auto max-w-7xl">
         <SectionIntro
           eyebrow="Trust"
-          title="Why Businesses Choose ASMAN TECH"
+          title="Why Businesses Choose Asman AI"
           text="Enterprise buyers need more than polished screens. They need technical ownership, secure delivery, and systems that can keep evolving."
         />
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -312,7 +312,7 @@ export function EnterpriseCTA() {
           Ready to Discuss Your Next Technology Initiative?
         </h2>
         <p className="mt-6 max-w-2xl text-lg leading-8 text-white/60">
-          Talk with ASMAN TECH about the automation, software, or SaaS system your organization needs next.
+          Talk with Asman AI about the automation, software, or SaaS system your organization needs next.
         </p>
         <div className="mt-9 flex flex-wrap gap-3">
           <Link href="/contact" className="inline-flex rounded-full bg-white px-6 py-4 text-sm font-black text-ink transition hover:bg-aura">Request Proposal</Link>

@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://asmantech.com/sitemap.xml",
+    sitemap: "https://asmanai.com/sitemap.xml",
   };
 }

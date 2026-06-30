@@ -24,7 +24,7 @@ const routes = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://asmantech.com";
+  const baseUrl = "https://asmanai.com";
   return routes.map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),

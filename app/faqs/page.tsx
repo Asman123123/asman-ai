@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { SectionIntro } from "@/components/Sections";
 import { useLocale } from "@/components/i18n/LocaleProvider";
@@ -15,7 +15,7 @@ export default function Page() {
           <div className="grid gap-4 text-left">
             {[
               ["How do projects begin?", "Projects begin with a clear scope, proposal, payment, onboarding materials, and access to required systems."],
-              ["Can ASMAN TECH work with our existing tools?", "Yes. We can plan integrations with CRM, cloud, payment, communication, analytics, and internal business systems."],
+              ["Can Asman AI work with our existing tools?", "Yes. We can plan integrations with CRM, cloud, payment, communication, analytics, and internal business systems."],
               ["Is pricing fixed?", "Pricing depends on scope, complexity, integrations, timeline, and support requirements. The Pricing page provides starting ranges."],
               ["What happens after launch?", "Support can include monitoring, improvements, bug fixes, documentation, handoff, and future feature development."],
             ].map(([question, answer]) => (

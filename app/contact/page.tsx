@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { ContactForm } from "@/components/ContactForm";
 import { SectionIntro } from "@/components/Sections";
@@ -22,7 +22,7 @@ export default function ContactPage() {
             <SectionIntro eyebrow={t.nav.contact} title={t.contact.title} text={t.contact.text} />
             <div className="rounded-[2rem] border border-white/10 bg-white/[0.045] p-7 text-white/62 shadow-card">
               <h2 className="text-2xl font-black text-white">{t.contact.business}</h2>
-              <p className="mt-5 leading-7">ASMAN TECH<br />AI Automation • Software Development • SaaS Solutions</p>
+              <p className="mt-5 leading-7">Asman AI<br />AI Automation • Software Development • SaaS Solutions</p>
               <a className="mt-6 inline-flex text-aura" href="mailto:asman.usa88@gmail.com">asman.usa88@gmail.com</a>
             </div>
           </div>

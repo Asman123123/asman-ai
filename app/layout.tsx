@@ -1,26 +1,26 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { LocaleProvider } from "@/components/i18n/LocaleProvider";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://asmantech.com"),
-  title: { default: "ASMAN TECH | AI Automation, Software Development, SaaS Solutions", template: "%s | ASMAN TECH" },
-  description: "ASMAN TECH builds AI automation, custom software, SaaS platforms, CRM automation, and enterprise software for modern organizations.",
+  metadataBase: new URL("https://asmanai.com"),
+  title: { default: "Asman AI | AI Automation, Software Development, SaaS Solutions", template: "%s | Asman AI" },
+  description: "Asman AI builds AI automation, custom software, SaaS platforms, CRM automation, and enterprise software for modern organizations.",
   keywords: ["AI Automation Company", "SaaS Development Company", "Custom Software Development", "CRM Automation", "Enterprise Software"],
   icons: { icon: "/icon.png", apple: "/apple-icon.png" },
   openGraph: {
-    title: "ASMAN TECH",
+    title: "Asman AI",
     description: "AI automation, custom software, and SaaS development for modern businesses.",
-    url: "https://asmantech.com",
-    siteName: "ASMAN TECH",
+    url: "https://asmanai.com",
+    siteName: "Asman AI",
     type: "website",
-    images: [{ url: "/brand/asman-ai-white.png", width: 4000, height: 802, alt: "ASMAN TECH" }],
+    images: [{ url: "/brand/asman-ai-white.png", width: 4000, height: 802, alt: "Asman AI" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ASMAN TECH",
+    title: "Asman AI",
     description: "AI automation, custom software, and SaaS development for modern businesses.",
     images: ["/brand/asman-ai-white.png"],
   },
@@ -30,9 +30,9 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "ASMAN TECH",
+  name: "Asman AI",
   legalName: "ASMAN LLC",
-  url: "https://asmantech.com",
+  url: "https://asmanai.com",
   email: "asman.usa88@gmail.com",
   makesOffer: ["AI Automation", "Custom Software Development", "SaaS Development", "CRM Automation", "Enterprise Software Development"],
 };
@@ -43,10 +43,10 @@ const faqJsonLd = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "What services does ASMAN TECH provide?",
+      name: "What services does Asman AI provide?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "ASMAN TECH provides AI automation, software development, SaaS development, CRM automation, AI voice agents, and enterprise software solutions.",
+        text: "Asman AI provides AI automation, software development, SaaS development, CRM automation, AI voice agents, and enterprise software solutions.",
       },
     },
     {
@@ -63,9 +63,9 @@ const faqJsonLd = {
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Blog",
-  name: "ASMAN TECH Resources Center",
+  name: "Asman AI Resources Center",
   description: "Insights on AI automation, software development, SaaS strategy, CRM systems, and digital transformation.",
-  publisher: { "@type": "Organization", name: "ASMAN TECH" },
+  publisher: { "@type": "Organization", name: "Asman AI" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
