@@ -109,8 +109,12 @@ export function Header() {
         </div>
       </nav>
       {open && (
-        <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="border-t border-white/10 bg-ink/95 px-5 py-5 backdrop-blur-2xl xl:hidden">
-          <div className="grid gap-2">
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="max-h-[calc(100dvh-4.75rem)] overflow-y-auto overscroll-contain border-t border-white/10 bg-ink/95 px-5 py-5 shadow-[0_24px_80px_rgba(0,0,0,.45)] backdrop-blur-2xl xl:hidden"
+        >
+          <div className="grid gap-2 pb-[max(1rem,env(safe-area-inset-bottom))]">
             {simpleLinks.map(([label, href]) => (
               <Link key={href} href={href} onClick={() => setOpen(false)} className={cn("rounded-2xl px-4 py-3 text-lg font-semibold text-white/78", pathname === href && "bg-white/10 text-white")}>{label}</Link>
             ))}
