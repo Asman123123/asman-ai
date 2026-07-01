@@ -58,19 +58,19 @@
     ],
     "panelRows": [
       [
-        "Lead giri?i",
-        "Nitelendirildi ve y?nlendirildi",
+        "Lead girişi",
+        "Nitelendirildi ve yönlendirildi",
         "Aktif"
       ],
       [
         "CRM pipeline",
-        "Takip dizisi haz?r",
-        "Haz?r"
+        "Takip dizisi hazır",
+        "Hazır"
       ],
       [
-        "Y?netici paneli",
-        "Operasyon sinyali alg?land?",
-        "Canl?"
+        "Yönetici paneli",
+        "Operasyon sinyali algılandı",
+        "Canlı"
       ]
     ]
   },

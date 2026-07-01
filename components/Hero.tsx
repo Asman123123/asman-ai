@@ -140,12 +140,12 @@ export function Hero() {
         <motion.div style={{ x: panelX, y: panelY }} className="hero-stagger hidden lg:block">
           <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.04] p-4 shadow-card backdrop-blur-2xl">
             <div className="relative rounded-[1.5rem] border border-white/10 bg-[#05070d]/88 p-6">
-              <div className="flex items-center justify-between border-b border-white/10 pb-5">
-                <div>
+              <div className="flex flex-col gap-3 border-b border-white/10 pb-5">
+                <div className="min-w-0">
                   <div className="text-xs font-black uppercase tracking-[0.2em] text-aura">{t.hero.panelEyebrow}</div>
-                  <div className="mt-1 text-2xl font-black">{t.hero.panelTitle}</div>
+                  <div className="mt-1 text-balance text-xl font-black leading-tight sm:text-2xl">{t.hero.panelTitle}</div>
                 </div>
-                <div className="rounded-full border border-white/10 bg-white/[0.035] px-3 py-1 text-xs font-black text-white/64">{t.common.mapped}</div>
+                <div className="w-fit shrink-0 rounded-full border border-white/10 bg-white/[0.035] px-3 py-1 text-xs font-black leading-tight text-white/64">{t.common.mapped}</div>
               </div>
 
               <div className="mt-6 grid gap-4">
@@ -154,15 +154,15 @@ export function Hero() {
                   const TypedIcon = Icon;
                   return (
                     <div key={title} className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
-                      <div className="flex items-center justify-between gap-4">
-                        <div className="flex items-center gap-3">
+                      <div className="flex items-start justify-between gap-4">
+                        <div className="flex min-w-0 items-start gap-3">
                           <span className="grid h-10 w-10 place-items-center rounded-xl border border-white/10 text-aura"><TypedIcon size={19} /></span>
-                          <span>
-                            <span className="block text-sm font-black text-white">{title}</span>
-                            <span className="text-xs text-white/42">{text}</span>
+                          <span className="min-w-0">
+                            <span className="block text-sm font-black leading-snug text-white">{title}</span>
+                            <span className="block text-xs leading-snug text-white/42">{text}</span>
                           </span>
                         </div>
-                        <span className="text-sm font-black text-aura">{value}</span>
+                        <span className="shrink-0 text-right text-sm font-black leading-snug text-aura">{value}</span>
                       </div>
                     </div>
                   );
